@@ -43,5 +43,7 @@ services:
         value: "500"
       - key: LOG_LEVEL
         value: info
+      - key: API_KEY
+        value: 83b0fb0b11c09b6930d0466d022559ede946aa6f39307e43c0ae3ea849df9cd2
       # No DATABASE_URL — uses in-memory job store, no analytics persistence
       # Add a Render PostgreSQL + DATABASE_URL later if you need persistent jobs/analytics

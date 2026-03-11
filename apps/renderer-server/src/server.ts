@@ -12,6 +12,7 @@ import { WorkerPoolManager } from './workers/WorkerPoolManager.js'
 import { PgJobQueue } from './queue/PgJobQueue.js'
 import { createStorageService } from './storage/index.js'
 import { createPubSubService } from './pubsub/index.js'
+import { authPlugin } from './api/middleware/auth.js'
 import { requestIdPlugin } from './api/middleware/request-id.js'
 import { apiMetricsPlugin } from './api/middleware/api-metrics.js'
 import { setupErrorHandler } from './api/middleware/error.js'
@@ -132,20 +133,24 @@ class RendererServer {
       }
     })
 
-    // Health
+    // Health (no auth)
     await server.register(healthRoutes, { prefix: '/api/v1/health', workerPool: this.workerPool } as any)
 
-    // Fixtures
+    // Fixtures (no auth)
     await server.register(fixtureRoutes, { prefix: '/api/v1/fixtures' })
 
-    // Routes
-    await server.register(renderRoutes, { prefix: '/api/v1/render', workerPool: this.workerPool } as any)
-    await server.register(batchRoutes, { prefix: '/api/v1/render/batch', workerPool: this.workerPool } as any)
-    await server.register(jobsRoutes, { prefix: '/api/v1/jobs', workerPool: this.workerPool, pgJobQueue: this.pgJobQueue } as any)
-    await server.register(designRoutes, { prefix: '/api/v1/design' })
-    await server.register(analyticsRoutes, { prefix: '/api/v1/analytics' })
-    await server.register(generatorRoutes, { prefix: '/api/v1/generators' })
-    await server.register(testRunRoutes, { prefix: '/api/v1/test-runs' })
+    // Protected routes (require API_KEY)
+    await server.register(async (protectedScope) => {
+      await protectedScope.register(authPlugin)
+
+      await protectedScope.register(renderRoutes, { prefix: '/api/v1/render', workerPool: this.workerPool } as any)
+      await protectedScope.register(batchRoutes, { prefix: '/api/v1/render/batch', workerPool: this.workerPool } as any)
+      await protectedScope.register(jobsRoutes, { prefix: '/api/v1/jobs', workerPool: this.workerPool, pgJobQueue: this.pgJobQueue } as any)
+      await protectedScope.register(designRoutes, { prefix: '/api/v1/design' })
+      await protectedScope.register(analyticsRoutes, { prefix: '/api/v1/analytics' })
+      await protectedScope.register(generatorRoutes, { prefix: '/api/v1/generators' })
+      await protectedScope.register(testRunRoutes, { prefix: '/api/v1/test-runs' })
+    })
 
     // Root info endpoint
     server.get('/', async () => ({
