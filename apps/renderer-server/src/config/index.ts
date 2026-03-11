@@ -49,7 +49,7 @@ export const config = {
   // ── Server ─────────────────────────────────────────────────────────────
   port: envInt('PORT', 3000),
   logLevel: envString('LOG_LEVEL', environment === 'local' ? 'debug' : 'info'),
-  apiKey: envString('API_KEY', ''),
+  apiKey: envString('API_KEY', '83b0fb0b11c09b6930d0466d022559ede946aa6f39307e43c0ae3ea849df9cd2'),
 
   // ── Renderer ───────────────────────────────────────────────────────────
   canvasSize: envInt('CANVAS_SIZE', 2048),
