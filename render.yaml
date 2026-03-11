@@ -9,7 +9,7 @@ services:
   - type: web
     name: renderer-server
     runtime: docker
-    plan: pro-plus # 8GB RAM, $175/mo
+    plan: pro plus
     dockerfilePath: ./apps/renderer-server/Dockerfile
     dockerContext: .
     healthCheckPath: /api/v1/health/live
