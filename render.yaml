@@ -34,7 +34,7 @@ services:
       - key: JOB_TIMEOUT
         value: "120000"
       - key: NODE_HEAP_LIMIT_MB
-        value: "512"
+        value: "2048"
       - key: MAX_JOBS_PER_WORKER
         value: "25"
       - key: MAX_RESPAWNS
