@@ -118,6 +118,7 @@ export const healthResponseSchema = z.object({
   queueDepth: z.number().int().nonnegative().optional(),
   uptime: z.number().nonnegative(),
   memory: memoryMetricsSchema.optional(),
+  authEnabled: z.boolean().optional(),
   generators: z
     .array(
       z.object({
