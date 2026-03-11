@@ -1,7 +1,7 @@
-import { FastifyInstance } from 'fastify'
+import fp from 'fastify-plugin'
 import { config } from '../../config/index.js'
 
-export async function authPlugin(server: FastifyInstance) {
+export const authPlugin = fp(async (server) => {
   server.addHook('onRequest', async (request, reply) => {
     if (!config.apiKey) return
 
@@ -15,4 +15,4 @@ export async function authPlugin(server: FastifyInstance) {
       return reply.code(401).send({ error: 'Unauthorized' })
     }
   })
-}
+})
