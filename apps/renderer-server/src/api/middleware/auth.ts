@@ -12,7 +12,7 @@ export async function authPlugin(server: FastifyInstance) {
     const key = xApiKey || bearerToken
 
     if (key !== config.apiKey) {
-      reply.code(401).send({ error: 'Unauthorized' })
+      return reply.code(401).send({ error: 'Unauthorized' })
     }
   })
 }
