@@ -3,6 +3,7 @@ import { readFileSync } from 'node:fs'
 import type { HealthResponse, MemoryMetrics } from '../schemas.js'
 import { healthResponseSchema } from '../schemas.js'
 import type { WorkerPoolManager } from '../../workers/WorkerPoolManager.js'
+import { config } from '../../config/index.js'
 
 const startTime = Date.now()
 const MEMORY_PRESSURE_THRESHOLD = 0.85
@@ -68,7 +69,8 @@ export async function healthRoutes(fastify: FastifyInstance, opts: { workerPool:
 
     const response: HealthResponse = {
       status: workerPool.isInitialized() ? 'healthy' : 'unhealthy',
-      version: '1.0.0-phase1',
+      version: '1.0.0-phase1-auth-debug',
+      authEnabled: !!config.apiKey,
       renderer: 'js',
       workers: poolStatus.workers,
       workerStatus: {
