@@ -1,0 +1,81 @@
+[
+  {
+    "active": true,
+    "id": "example-generator-uuid",
+    "size": "medium",
+    "printMethod": "DTG",
+    "views": [
+      {
+        "id": "view-0",
+        "supportsTransparency": true,
+        "regions": ["chest"],
+        "images": [
+          {
+            "type": "MAIN",
+            "url": "https://example.com/base-image.png"
+          },
+          {
+            "type": "MASK",
+            "url": "https://example.com/mask-image.png"
+          }
+        ],
+        "mesh": {
+          "scale": 1.0,
+          "url": "https://example.com/mesh.glb"
+        },
+        "camera": {
+          "z": 5,
+          "focal": 50,
+          "projection": "PERSPECTIVE"
+        },
+        "heather": {
+          "scale": 1.0,
+          "angle": 0
+        },
+        "embroidery": {
+          "density": 1.0,
+          "thickness": 1.0,
+          "length": 1.0,
+          "offset": 0,
+          "scale": 1.0
+        },
+        "style": "default",
+        "flatPreview": false
+      }
+    ],
+    "colors": [
+      {
+        "name": "black",
+        "mode": "SINGLE_COLOR",
+        "hex": "#000000",
+        "cv": 255,
+        "bv": 100,
+        "hl": 0,
+        "sh": 0,
+        "hr": 0,
+        "sa": 100,
+        "gv": 1.0,
+        "values": [],
+        "textured": false,
+        "texture": {}
+      },
+      {
+        "name": "white",
+        "mode": "SINGLE_COLOR",
+        "hex": "#FFFFFF",
+        "cv": 255,
+        "bv": 100,
+        "hl": 0,
+        "sh": 0,
+        "hr": 0,
+        "sa": 100,
+        "gv": 1.0,
+        "values": [],
+        "textured": false,
+        "texture": {}
+      }
+    ],
+    "multicolorDefinitions": [],
+    "options": {}
+  }
+]

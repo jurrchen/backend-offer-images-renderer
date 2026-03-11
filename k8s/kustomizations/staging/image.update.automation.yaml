@@ -1,0 +1,8 @@
+apiVersion: image.toolkit.fluxcd.io/v1beta1
+kind: ImageUpdateAutomation
+metadata:
+  name: offer-renderer-automation
+  namespace: offer-renderer
+spec:
+  update:
+    path: ./k8s/kustomizations/staging

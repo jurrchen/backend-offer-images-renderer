@@ -1,0 +1,14 @@
+apiVersion: image.toolkit.fluxcd.io/v1beta1
+kind: ImageRepository
+metadata:
+  name: offer-renderer
+  namespace: offer-renderer
+spec:
+  image: registry.gitlab.com/popshopdev/platform/backend-offer-images-renderer/snapshot
+  interval: 1m0s
+  secretRef:
+    name: image-access
+  accessFrom:
+    namespaceSelectors:
+      - matchLabels:
+          app.kubernetes.io/instance: flux-system

@@ -1,0 +1,41 @@
+apiVersion: image.toolkit.fluxcd.io/v1beta1
+kind: ImageUpdateAutomation
+metadata:
+  name: offer-renderer-automation
+  namespace: offer-renderer
+spec:
+  git:
+    checkout:
+      ref:
+        branch: main
+    commit:
+      author:
+        email: fourthwallbot@fourthwall.com
+        name: fourthwallbot
+      messageTemplate: |-
+        Automated image update
+
+        Automation name: {{ .AutomationObject }}
+
+        Files:
+        {{ range $filename, $_ := .Updated.Files -}}
+        - {{ $filename }}
+        {{ end -}}
+
+        Objects:
+        {{ range $resource, $_ := .Updated.Objects -}}
+        - {{ $resource.Kind | lower }} {{ $resource.Name | lower  }}
+        {{ end -}}
+
+        Images:
+        {{ range $image, $val := .Updated.Images -}}
+        - {{ $val.Name }}
+        {{ end -}}
+  interval: 1m0s
+  sourceRef:
+    name: offer-renderer
+    kind: GitRepository
+    namespace: offer-renderer
+  update:
+    path: ./k8s/kustomizations/staging
+    strategy: Setters

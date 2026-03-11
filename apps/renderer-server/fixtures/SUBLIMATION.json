@@ -1,0 +1,586 @@
+{
+    "id": "gen_4nCLf4wPQOuq371vXY_myQ",
+    "name": "Gaming Mouse Pad Small (Printful)",
+    "regions": [
+        {
+            "id": "default",
+            "name": "Default",
+            "productionMethod": "PRINTED",
+            "manufacturerOverlay": null,
+            "blueprint": {
+                "id": "vec_1c2eb86bf39f4c0a85",
+                "value": {
+                    "type": "root",
+                    "children": [
+                        {
+                            "name": "svg",
+                            "type": "element",
+                            "children": [
+                                {
+                                    "name": "path",
+                                    "type": "element",
+                                    "children": [],
+                                    "position": {
+                                        "end": {
+                                            "line": 1,
+                                            "column": 135,
+                                            "offset": 134
+                                        },
+                                        "start": {
+                                            "line": 1,
+                                            "column": 94,
+                                            "offset": 93
+                                        }
+                                    },
+                                    "attributes": {
+                                        "d": "M0 0h1024v1024H0z",
+                                        "fill": "none"
+                                    }
+                                },
+                                {
+                                    "name": "path",
+                                    "type": "element",
+                                    "children": [],
+                                    "position": {
+                                        "end": {
+                                            "line": 1,
+                                            "column": 254,
+                                            "offset": 253
+                                        },
+                                        "start": {
+                                            "line": 1,
+                                            "column": 135,
+                                            "offset": 134
+                                        }
+                                    },
+                                    "attributes": {
+                                        "d": "M1007 952H17V72h990v880Z",
+                                        "fill": "#ededed",
+                                        "class": "paint",
+                                        "stroke": "#000",
+                                        "stroke-width": "2",
+                                        "stroke-miterlimit": "10"
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "end": {
+                                    "line": 1,
+                                    "column": 260,
+                                    "offset": 259
+                                },
+                                "start": {
+                                    "line": 1,
+                                    "column": 1,
+                                    "offset": 0
+                                }
+                            },
+                            "attributes": {
+                                "id": "Warstwa_1",
+                                "width": "1024",
+                                "height": "1024",
+                                "viewBox": "0 0 1024 1024",
+                                "data-name": "Warstwa 1"
+                            }
+                        }
+                    ],
+                    "position": {
+                        "end": {
+                            "line": 1,
+                            "column": 260,
+                            "offset": 259
+                        },
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        }
+                    }
+                }
+            },
+            "printArea": {
+                "type": "root",
+                "children": [
+                    {
+                        "name": "svg",
+                        "type": "element",
+                        "children": [
+                            {
+                                "name": "g",
+                                "type": "element",
+                                "children": [
+                                    {
+                                        "name": "path",
+                                        "type": "element",
+                                        "children": [],
+                                        "position": {
+                                            "end": {
+                                                "line": 1,
+                                                "column": 121,
+                                                "offset": 120
+                                            },
+                                            "start": {
+                                                "line": 1,
+                                                "column": 73,
+                                                "offset": 72
+                                            }
+                                        },
+                                        "attributes": {
+                                            "d": "M1007 952H17V72h990v880Z",
+                                            "fill": "none"
+                                        }
+                                    }
+                                ],
+                                "position": {
+                                    "end": {
+                                        "line": 1,
+                                        "column": 125,
+                                        "offset": 124
+                                    },
+                                    "start": {
+                                        "line": 1,
+                                        "column": 57,
+                                        "offset": 56
+                                    }
+                                },
+                                "attributes": {
+                                    "id": "regions"
+                                }
+                            },
+                            {
+                                "name": "g",
+                                "type": "element",
+                                "children": [
+                                    {
+                                        "name": "path",
+                                        "type": "element",
+                                        "children": [],
+                                        "position": {
+                                            "end": {
+                                                "line": 1,
+                                                "column": 190,
+                                                "offset": 189
+                                            },
+                                            "start": {
+                                                "line": 1,
+                                                "column": 142,
+                                                "offset": 141
+                                            }
+                                        },
+                                        "attributes": {
+                                            "d": "M966 912H58V112h908v800Z",
+                                            "fill": "none"
+                                        }
+                                    }
+                                ],
+                                "position": {
+                                    "end": {
+                                        "line": 1,
+                                        "column": 194,
+                                        "offset": 193
+                                    },
+                                    "start": {
+                                        "line": 1,
+                                        "column": 125,
+                                        "offset": 124
+                                    }
+                                },
+                                "attributes": {
+                                    "id": "safeArea"
+                                }
+                            }
+                        ],
+                        "position": {
+                            "end": {
+                                "line": 1,
+                                "column": 200,
+                                "offset": 199
+                            },
+                            "start": {
+                                "line": 1,
+                                "column": 1,
+                                "offset": 0
+                            }
+                        },
+                        "attributes": {
+                            "width": "1024",
+                            "height": "1024",
+                            "viewBox": "0 0 1024 1024"
+                        }
+                    }
+                ],
+                "position": {
+                    "end": {
+                        "line": 1,
+                        "column": 200,
+                        "offset": 199
+                    },
+                    "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                    }
+                }
+            },
+            "dimensions": {
+                "dpi": 300,
+                "pixelsWidth": 5550,
+                "pixelsHeight": 4950,
+                "inchesWidth": 18.5,
+                "inchesHeight": 16.5
+            },
+            "collided": [],
+            "required": false,
+            "supportsBackground": true,
+            "embroideryType": [],
+            "renderingType": "PER_REGION",
+            "outputtingType": "REGION",
+            "type": "REGULAR",
+            "renderingRelationships": []
+        }
+    ],
+    "views": [
+        {
+            "available": true,
+            "supportsTransparency": true,
+            "name": "New View",
+            "regions": [
+                "default"
+            ],
+            "images": [
+                {
+                    "type": "MAIN",
+                    "url": "https://cdn.fourthwall.com/generator/gen_4nCLf4wPQOuq371vXY_myQ/d029bfb8-2d91-43c0-a08d-ac72df391672.jpg"
+                },
+                {
+                    "type": "MASK",
+                    "url": "https://cdn.fourthwall.com/generator/gen_4nCLf4wPQOuq371vXY_myQ/7f221957-de93-44a2-9209-fe9418a2e825.jpg"
+                },
+                {
+                    "type": "OPTIONAL_MASK",
+                    "url": "https://cdn.fourthwall.com/generator/gen_4nCLf4wPQOuq371vXY_myQ/662d7625-2344-4a25-9f82-9f31ca0f25da.jpg"
+                }
+            ],
+            "mesh": {
+                "scale": 1,
+                "url": "https://cdn.fourthwall.com/generator/gen_4nCLf4wPQOuq371vXY_myQ/13258970-741e-4680-bd5d-665982dbef5b.glb"
+            },
+            "camera": {
+                "z": 11.806,
+                "focal": 85,
+                "projection": "PERSPECTIVE"
+            },
+            "heather": {
+                "scale": null,
+                "angle": null
+            },
+            "embroidery": {
+                "density": null,
+                "thickness": null,
+                "length": null,
+                "offset": null,
+                "scale": null
+            },
+            "style": null,
+            "flatPreview": false
+        },
+        {
+            "available": true,
+            "supportsTransparency": true,
+            "name": "New View",
+            "regions": [
+                "default"
+            ],
+            "images": [
+                {
+                    "type": "MAIN",
+                    "url": "https://cdn.fourthwall.com/generator/gen_4nCLf4wPQOuq371vXY_myQ/1bcfc3ef-2cb5-426b-8c39-f8ad964b20b4.jpg"
+                },
+                {
+                    "type": "MASK",
+                    "url": "https://cdn.fourthwall.com/generator/gen_4nCLf4wPQOuq371vXY_myQ/37b14303-6f26-486e-aec3-0324032d860b.jpg"
+                },
+                {
+                    "type": "OPTIONAL_MASK",
+                    "url": "https://cdn.fourthwall.com/generator/gen_4nCLf4wPQOuq371vXY_myQ/aaf8bf4d-b4e2-4759-9c3e-46dad3556e62.jpg"
+                }
+            ],
+            "mesh": {
+                "scale": 1,
+                "url": "https://cdn.fourthwall.com/generator/gen_4nCLf4wPQOuq371vXY_myQ/0251f96b-6db8-44da-a919-fec00944058d.glb"
+            },
+            "camera": {
+                "z": 11.806,
+                "focal": 85,
+                "projection": "PERSPECTIVE"
+            },
+            "heather": {
+                "scale": null,
+                "angle": null
+            },
+            "embroidery": {
+                "density": null,
+                "thickness": null,
+                "length": null,
+                "offset": null,
+                "scale": null
+            },
+            "style": null,
+            "flatPreview": false
+        },
+        {
+            "available": false,
+            "supportsTransparency": true,
+            "name": "New View",
+            "regions": [
+                "default"
+            ],
+            "images": [
+                {
+                    "type": "MAIN",
+                    "url": "https://cdn.fourthwall.com/generator/gen_4nCLf4wPQOuq371vXY_myQ/f447292b-f27a-45fa-9850-9a6459a584ad.jpg"
+                },
+                {
+                    "type": "MASK",
+                    "url": "https://cdn.fourthwall.com/generator/gen_4nCLf4wPQOuq371vXY_myQ/edf9f31f-3180-478c-b94f-785c4c61d9b9.jpg"
+                },
+                {
+                    "type": "OPTIONAL_MASK",
+                    "url": "https://cdn.fourthwall.com/generator/gen_4nCLf4wPQOuq371vXY_myQ/cecb05ff-76ee-48cf-a6da-180e8ebde6b6.jpg"
+                }
+            ],
+            "mesh": {
+                "scale": 1,
+                "url": "https://cdn.fourthwall.com/generator/gen_4nCLf4wPQOuq371vXY_myQ/1d7c37c8-a165-4f3f-8794-ef3a5562d4ef.glb"
+            },
+            "camera": {
+                "z": 11.806,
+                "focal": 85,
+                "projection": "PERSPECTIVE"
+            },
+            "heather": {
+                "scale": null,
+                "angle": null
+            },
+            "embroidery": {
+                "density": null,
+                "thickness": null,
+                "length": null,
+                "offset": null,
+                "scale": null
+            },
+            "style": null,
+            "flatPreview": false
+        },
+        {
+            "available": true,
+            "supportsTransparency": true,
+            "name": "New View",
+            "regions": [
+                "default"
+            ],
+            "images": [
+                {
+                    "type": "MAIN",
+                    "url": "https://cdn.fourthwall.com/generator/gen_4nCLf4wPQOuq371vXY_myQ/a192b147-51c3-4a26-9091-e0f04b8664d7.jpg"
+                },
+                {
+                    "type": "MASK",
+                    "url": "https://cdn.fourthwall.com/generator/gen_4nCLf4wPQOuq371vXY_myQ/9023b1a9-943f-45d3-87c5-b91725427a1b.jpg"
+                },
+                {
+                    "type": "OPTIONAL_MASK",
+                    "url": "https://cdn.fourthwall.com/generator/gen_4nCLf4wPQOuq371vXY_myQ/64a5a1c8-5d83-44b5-a794-d92ff0060595.jpg"
+                }
+            ],
+            "mesh": {
+                "scale": 1,
+                "url": "https://cdn.fourthwall.com/generator/gen_4nCLf4wPQOuq371vXY_myQ/7f13e159-47df-46b4-9794-8f6bbf5b6457.glb"
+            },
+            "camera": {
+                "z": 11.806,
+                "focal": 85,
+                "projection": "PERSPECTIVE"
+            },
+            "heather": {
+                "scale": null,
+                "angle": null
+            },
+            "embroidery": {
+                "density": null,
+                "thickness": null,
+                "length": null,
+                "offset": null,
+                "scale": null
+            },
+            "style": null,
+            "flatPreview": false
+        },
+        {
+            "available": false,
+            "supportsTransparency": true,
+            "name": "New View",
+            "regions": [
+                "default"
+            ],
+            "images": [
+                {
+                    "type": "MAIN",
+                    "url": "https://cdn.fourthwall.com/generator/gen_4nCLf4wPQOuq371vXY_myQ/50fb8d50-488d-48ad-88cc-66d75c9c1bf4.jpg"
+                },
+                {
+                    "type": "MASK",
+                    "url": "https://cdn.fourthwall.com/generator/gen_4nCLf4wPQOuq371vXY_myQ/1d57f8f9-0954-4303-a55c-1d490024bcd1.jpg"
+                },
+                {
+                    "type": "OPTIONAL_MASK",
+                    "url": "https://cdn.fourthwall.com/generator/gen_4nCLf4wPQOuq371vXY_myQ/889184b7-b1b0-46fa-987b-ab8019564f57.jpg"
+                }
+            ],
+            "mesh": {
+                "scale": 1,
+                "url": "https://cdn.fourthwall.com/generator/gen_4nCLf4wPQOuq371vXY_myQ/1c50baa3-53b3-408e-9c0d-a14788f12afc.glb"
+            },
+            "camera": {
+                "z": 11.806,
+                "focal": 85,
+                "projection": "PERSPECTIVE"
+            },
+            "heather": {
+                "scale": null,
+                "angle": null
+            },
+            "embroidery": {
+                "density": null,
+                "thickness": null,
+                "length": null,
+                "offset": null,
+                "scale": null
+            },
+            "style": null,
+            "flatPreview": false
+        },
+        {
+            "available": true,
+            "supportsTransparency": true,
+            "name": "New View",
+            "regions": [
+                "default"
+            ],
+            "images": [
+                {
+                    "type": "MAIN",
+                    "url": "https://cdn.fourthwall.com/generator/gen_4nCLf4wPQOuq371vXY_myQ/d263f978-8386-4aec-8d72-17b213331216.jpg"
+                },
+                {
+                    "type": "MASK",
+                    "url": "https://cdn.fourthwall.com/generator/gen_4nCLf4wPQOuq371vXY_myQ/bd7fe179-87f8-40b2-a895-b5aa2cdb297e.jpg"
+                },
+                {
+                    "type": "OPTIONAL_MASK",
+                    "url": "https://cdn.fourthwall.com/generator/gen_4nCLf4wPQOuq371vXY_myQ/11acfea0-b72c-4b28-8c54-7c1fdd3ba319.jpg"
+                }
+            ],
+            "mesh": {
+                "scale": 1,
+                "url": "https://cdn.fourthwall.com/generator/gen_4nCLf4wPQOuq371vXY_myQ/072e818d-49cc-448c-a35b-72842b990945.glb"
+            },
+            "camera": {
+                "z": 11.806,
+                "focal": 85,
+                "projection": "PERSPECTIVE"
+            },
+            "heather": {
+                "scale": null,
+                "angle": null
+            },
+            "embroidery": {
+                "density": null,
+                "thickness": null,
+                "length": null,
+                "offset": null,
+                "scale": null
+            },
+            "style": null,
+            "flatPreview": false
+        },
+        {
+            "available": true,
+            "supportsTransparency": true,
+            "name": "New View",
+            "regions": [
+                "default"
+            ],
+            "images": [
+                {
+                    "type": "MAIN",
+                    "url": "https://cdn.fourthwall.com/generator/gen_4nCLf4wPQOuq371vXY_myQ/4842e4a3-208b-46b6-86b5-8476dad53053.jpg"
+                },
+                {
+                    "type": "MASK",
+                    "url": "https://cdn.fourthwall.com/generator/gen_4nCLf4wPQOuq371vXY_myQ/9825cf46-4b0a-4c97-a373-3b8c5575ad5d.jpg"
+                },
+                {
+                    "type": "OPTIONAL_MASK",
+                    "url": "https://cdn.fourthwall.com/generator/gen_4nCLf4wPQOuq371vXY_myQ/4a48d314-3433-4cbd-9232-b928af730a15.jpg"
+                }
+            ],
+            "mesh": {
+                "scale": 1,
+                "url": "https://cdn.fourthwall.com/generator/gen_4nCLf4wPQOuq371vXY_myQ/8516738f-544a-44a0-8600-0313c0fa5bbc.glb"
+            },
+            "camera": {
+                "z": 11.806,
+                "focal": 85,
+                "projection": "PERSPECTIVE"
+            },
+            "heather": {
+                "scale": null,
+                "angle": null
+            },
+            "embroidery": {
+                "density": null,
+                "thickness": null,
+                "length": null,
+                "offset": null,
+                "scale": null
+            },
+            "style": null,
+            "flatPreview": false
+        }
+    ],
+    "colors": [
+        {
+            "name": "White",
+            "mode": "SINGLE_COLOR",
+            "hex": "#ffffff",
+            "cv": 0.85,
+            "bv": 0.05,
+            "hl": 1,
+            "sh": 0.025,
+            "hr": 1,
+            "sa": 1,
+            "gv": 1,
+            "values": [
+                {
+                    "hex": "#ffffff",
+                    "cv": 0.85,
+                    "bv": 0.05,
+                    "hl": 1,
+                    "sh": 0.025,
+                    "hr": 1,
+                    "sa": 1,
+                    "gv": 1
+                }
+            ],
+            "textured": false,
+            "texture": {
+                "amount": null
+            }
+        }
+    ],
+    "stitchColors": [],
+    "stitchAndZipperColors": [],
+    "templates": [],
+    "preselectedGroup": null
+}

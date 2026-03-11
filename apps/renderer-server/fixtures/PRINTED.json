@@ -1,0 +1,777 @@
+{
+    "id": "gen_yhBDylH1ROylRnCFkVlyXA",
+    "name": "Kiss Cut Sticker Sheet with Background (Printful)",
+    "regions": [
+        {
+            "id": "default",
+            "name": "Stickers",
+            "productionMethod": "STICKER",
+            "manufacturerOverlay": null,
+            "blueprint": {
+                "id": "vec_583e812b040f4a6eb8",
+                "value": {
+                    "type": "root",
+                    "children": [
+                        {
+                            "name": "xml",
+                            "type": "instruction",
+                            "value": "version=\"1.0\" encoding=\"UTF-8\"",
+                            "position": {
+                                "end": {
+                                    "line": 1,
+                                    "column": 39,
+                                    "offset": 38
+                                },
+                                "start": {
+                                    "line": 1,
+                                    "column": 1,
+                                    "offset": 0
+                                }
+                            }
+                        },
+                        {
+                            "name": "svg",
+                            "type": "element",
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "\n  ",
+                                    "position": {
+                                        "end": {
+                                            "line": 3,
+                                            "column": 3,
+                                            "offset": 170
+                                        },
+                                        "start": {
+                                            "line": 2,
+                                            "column": 129,
+                                            "offset": 167
+                                        }
+                                    }
+                                },
+                                {
+                                    "name": "rect",
+                                    "type": "element",
+                                    "children": [],
+                                    "position": {
+                                        "end": {
+                                            "line": 3,
+                                            "column": 49,
+                                            "offset": 216
+                                        },
+                                        "start": {
+                                            "line": 3,
+                                            "column": 3,
+                                            "offset": 170
+                                        }
+                                    },
+                                    "attributes": {
+                                        "fill": "none",
+                                        "width": "1024",
+                                        "height": "1024"
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "value": "\n  ",
+                                    "position": {
+                                        "end": {
+                                            "line": 4,
+                                            "column": 3,
+                                            "offset": 219
+                                        },
+                                        "start": {
+                                            "line": 3,
+                                            "column": 49,
+                                            "offset": 216
+                                        }
+                                    }
+                                },
+                                {
+                                    "name": "rect",
+                                    "type": "element",
+                                    "children": [],
+                                    "position": {
+                                        "end": {
+                                            "line": 4,
+                                            "column": 136,
+                                            "offset": 352
+                                        },
+                                        "start": {
+                                            "line": 4,
+                                            "column": 3,
+                                            "offset": 219
+                                        }
+                                    },
+                                    "attributes": {
+                                        "x": "168",
+                                        "y": "24",
+                                        "fill": "#ededed",
+                                        "class": "paint",
+                                        "width": "688",
+                                        "height": "976",
+                                        "stroke": "#1e1e1c",
+                                        "stroke-width": "2",
+                                        "stroke-miterlimit": "10"
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "value": "\n",
+                                    "position": {
+                                        "end": {
+                                            "line": 5,
+                                            "column": 1,
+                                            "offset": 353
+                                        },
+                                        "start": {
+                                            "line": 4,
+                                            "column": 136,
+                                            "offset": 352
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "end": {
+                                    "line": 5,
+                                    "column": 7,
+                                    "offset": 359
+                                },
+                                "start": {
+                                    "line": 2,
+                                    "column": 1,
+                                    "offset": 39
+                                }
+                            },
+                            "attributes": {
+                                "id": "Warstwa_1",
+                                "width": "1024",
+                                "xmlns": "http://www.w3.org/2000/svg",
+                                "height": "1024",
+                                "viewBox": "0 0 1024 1024",
+                                "data-name": "Warstwa 1"
+                            }
+                        }
+                    ],
+                    "position": {
+                        "end": {
+                            "line": 5,
+                            "column": 7,
+                            "offset": 359
+                        },
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        }
+                    }
+                }
+            },
+            "printArea": {
+                "type": "root",
+                "children": [
+                    {
+                        "name": "svg",
+                        "type": "element",
+                        "children": [
+                            {
+                                "name": "g",
+                                "type": "element",
+                                "children": [
+                                    {
+                                        "name": "path",
+                                        "type": "element",
+                                        "children": [],
+                                        "position": {
+                                            "end": {
+                                                "line": 1,
+                                                "column": 117,
+                                                "offset": 116
+                                            },
+                                            "start": {
+                                                "line": 1,
+                                                "column": 73,
+                                                "offset": 72
+                                            }
+                                        },
+                                        "attributes": {
+                                            "d": "M168 24h688v976H168z",
+                                            "fill": "none"
+                                        }
+                                    }
+                                ],
+                                "position": {
+                                    "end": {
+                                        "line": 1,
+                                        "column": 121,
+                                        "offset": 120
+                                    },
+                                    "start": {
+                                        "line": 1,
+                                        "column": 57,
+                                        "offset": 56
+                                    }
+                                },
+                                "attributes": {
+                                    "id": "regions"
+                                }
+                            },
+                            {
+                                "name": "g",
+                                "type": "element",
+                                "children": [
+                                    {
+                                        "name": "path",
+                                        "type": "element",
+                                        "children": [],
+                                        "position": {
+                                            "end": {
+                                                "line": 1,
+                                                "column": 182,
+                                                "offset": 181
+                                            },
+                                            "start": {
+                                                "line": 1,
+                                                "column": 138,
+                                                "offset": 137
+                                            }
+                                        },
+                                        "attributes": {
+                                            "d": "M836 983H188V41h648z",
+                                            "fill": "none"
+                                        }
+                                    }
+                                ],
+                                "position": {
+                                    "end": {
+                                        "line": 1,
+                                        "column": 186,
+                                        "offset": 185
+                                    },
+                                    "start": {
+                                        "line": 1,
+                                        "column": 121,
+                                        "offset": 120
+                                    }
+                                },
+                                "attributes": {
+                                    "id": "safeArea"
+                                }
+                            }
+                        ],
+                        "position": {
+                            "end": {
+                                "line": 1,
+                                "column": 192,
+                                "offset": 191
+                            },
+                            "start": {
+                                "line": 1,
+                                "column": 1,
+                                "offset": 0
+                            }
+                        },
+                        "attributes": {
+                            "width": "1024",
+                            "height": "1024",
+                            "viewBox": "0 0 1024 1024"
+                        }
+                    }
+                ],
+                "position": {
+                    "end": {
+                        "line": 1,
+                        "column": 192,
+                        "offset": 191
+                    },
+                    "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                    }
+                }
+            },
+            "dimensions": {
+                "dpi": 300,
+                "pixelsWidth": 1749,
+                "pixelsHeight": 2481,
+                "inchesWidth": 5.83,
+                "inchesHeight": 8.27
+            },
+            "collided": [],
+            "required": true,
+            "supportsBackground": false,
+            "embroideryType": [],
+            "renderingType": "PER_REGION",
+            "outputtingType": "REGION",
+            "type": "REGULAR",
+            "renderingRelationships": []
+        },
+        {
+            "id": "background",
+            "name": "Background",
+            "productionMethod": "STICKER",
+            "manufacturerOverlay": null,
+            "blueprint": {
+                "id": "vec_7f19e1ea71aa426891",
+                "value": {
+                    "type": "root",
+                    "children": [
+                        {
+                            "name": "xml",
+                            "type": "instruction",
+                            "value": "version=\"1.0\" encoding=\"UTF-8\"",
+                            "position": {
+                                "end": {
+                                    "line": 1,
+                                    "column": 39,
+                                    "offset": 38
+                                },
+                                "start": {
+                                    "line": 1,
+                                    "column": 1,
+                                    "offset": 0
+                                }
+                            }
+                        },
+                        {
+                            "name": "svg",
+                            "type": "element",
+                            "children": [
+                                {
+                                    "type": "text",
+                                    "value": "\n  ",
+                                    "position": {
+                                        "end": {
+                                            "line": 3,
+                                            "column": 3,
+                                            "offset": 170
+                                        },
+                                        "start": {
+                                            "line": 2,
+                                            "column": 129,
+                                            "offset": 167
+                                        }
+                                    }
+                                },
+                                {
+                                    "name": "rect",
+                                    "type": "element",
+                                    "children": [],
+                                    "position": {
+                                        "end": {
+                                            "line": 3,
+                                            "column": 49,
+                                            "offset": 216
+                                        },
+                                        "start": {
+                                            "line": 3,
+                                            "column": 3,
+                                            "offset": 170
+                                        }
+                                    },
+                                    "attributes": {
+                                        "fill": "none",
+                                        "width": "1024",
+                                        "height": "1024"
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "value": "\n  ",
+                                    "position": {
+                                        "end": {
+                                            "line": 4,
+                                            "column": 3,
+                                            "offset": 219
+                                        },
+                                        "start": {
+                                            "line": 3,
+                                            "column": 49,
+                                            "offset": 216
+                                        }
+                                    }
+                                },
+                                {
+                                    "name": "rect",
+                                    "type": "element",
+                                    "children": [],
+                                    "position": {
+                                        "end": {
+                                            "line": 4,
+                                            "column": 136,
+                                            "offset": 352
+                                        },
+                                        "start": {
+                                            "line": 4,
+                                            "column": 3,
+                                            "offset": 219
+                                        }
+                                    },
+                                    "attributes": {
+                                        "x": "164",
+                                        "y": "24",
+                                        "fill": "#ededed",
+                                        "class": "paint",
+                                        "width": "696",
+                                        "height": "976",
+                                        "stroke": "#1e1e1c",
+                                        "stroke-width": "2",
+                                        "stroke-miterlimit": "10"
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "value": "\n",
+                                    "position": {
+                                        "end": {
+                                            "line": 5,
+                                            "column": 1,
+                                            "offset": 353
+                                        },
+                                        "start": {
+                                            "line": 4,
+                                            "column": 136,
+                                            "offset": 352
+                                        }
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "end": {
+                                    "line": 5,
+                                    "column": 7,
+                                    "offset": 359
+                                },
+                                "start": {
+                                    "line": 2,
+                                    "column": 1,
+                                    "offset": 39
+                                }
+                            },
+                            "attributes": {
+                                "id": "Warstwa_1",
+                                "width": "1024",
+                                "xmlns": "http://www.w3.org/2000/svg",
+                                "height": "1024",
+                                "viewBox": "0 0 1024 1024",
+                                "data-name": "Warstwa 1"
+                            }
+                        }
+                    ],
+                    "position": {
+                        "end": {
+                            "line": 5,
+                            "column": 7,
+                            "offset": 359
+                        },
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        }
+                    }
+                }
+            },
+            "printArea": {
+                "type": "root",
+                "children": [
+                    {
+                        "name": "svg",
+                        "type": "element",
+                        "children": [
+                            {
+                                "name": "g",
+                                "type": "element",
+                                "children": [
+                                    {
+                                        "name": "path",
+                                        "type": "element",
+                                        "children": [],
+                                        "position": {
+                                            "end": {
+                                                "line": 1,
+                                                "column": 117,
+                                                "offset": 116
+                                            },
+                                            "start": {
+                                                "line": 1,
+                                                "column": 73,
+                                                "offset": 72
+                                            }
+                                        },
+                                        "attributes": {
+                                            "d": "M164 24h696v976H164z",
+                                            "fill": "none"
+                                        }
+                                    }
+                                ],
+                                "position": {
+                                    "end": {
+                                        "line": 1,
+                                        "column": 121,
+                                        "offset": 120
+                                    },
+                                    "start": {
+                                        "line": 1,
+                                        "column": 57,
+                                        "offset": 56
+                                    }
+                                },
+                                "attributes": {
+                                    "id": "regions"
+                                }
+                            },
+                            {
+                                "name": "g",
+                                "type": "element",
+                                "children": [
+                                    {
+                                        "name": "path",
+                                        "type": "element",
+                                        "children": [],
+                                        "position": {
+                                            "end": {
+                                                "line": 1,
+                                                "column": 182,
+                                                "offset": 181
+                                            },
+                                            "start": {
+                                                "line": 1,
+                                                "column": 138,
+                                                "offset": 137
+                                            }
+                                        },
+                                        "attributes": {
+                                            "d": "M828 970H196V54h632z",
+                                            "fill": "none"
+                                        }
+                                    }
+                                ],
+                                "position": {
+                                    "end": {
+                                        "line": 1,
+                                        "column": 186,
+                                        "offset": 185
+                                    },
+                                    "start": {
+                                        "line": 1,
+                                        "column": 121,
+                                        "offset": 120
+                                    }
+                                },
+                                "attributes": {
+                                    "id": "safeArea"
+                                }
+                            }
+                        ],
+                        "position": {
+                            "end": {
+                                "line": 1,
+                                "column": 192,
+                                "offset": 191
+                            },
+                            "start": {
+                                "line": 1,
+                                "column": 1,
+                                "offset": 0
+                            }
+                        },
+                        "attributes": {
+                            "width": "1024",
+                            "height": "1024",
+                            "viewBox": "0 0 1024 1024"
+                        }
+                    }
+                ],
+                "position": {
+                    "end": {
+                        "line": 1,
+                        "column": 192,
+                        "offset": 191
+                    },
+                    "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                    }
+                }
+            },
+            "dimensions": {
+                "dpi": 300,
+                "pixelsWidth": 1821,
+                "pixelsHeight": 2553,
+                "inchesWidth": 6.07,
+                "inchesHeight": 8.51
+            },
+            "collided": [],
+            "required": false,
+            "supportsBackground": false,
+            "embroideryType": [],
+            "renderingType": "PER_REGION",
+            "outputtingType": "REGION",
+            "type": "REGULAR",
+            "renderingRelationships": []
+        }
+    ],
+    "views": [
+        {
+            "available": true,
+            "supportsTransparency": true,
+            "name": "New View",
+            "regions": [
+                "default",
+                "background"
+            ],
+            "images": [
+                {
+                    "type": "MAIN",
+                    "url": "https://firebasestorage.googleapis.com/v0/b/popshopprod.appspot.com/o/generator%2Fgen_yhBDylH1ROylRnCFkVlyXA%2F2.jpg?alt=media&token=e11316c0-0dc4-4b2a-a99a-0600a9d28bd3"
+                },
+                {
+                    "type": "MASK",
+                    "url": "https://firebasestorage.googleapis.com/v0/b/popshopprod.appspot.com/o/generator%2Fgen_yhBDylH1ROylRnCFkVlyXA%2F2m.jpg?alt=media&token=2060141a-b780-4959-99c6-127b87c29d1e"
+                }
+            ],
+            "mesh": {
+                "scale": 1,
+                "url": "https://firebasestorage.googleapis.com/v0/b/popshopprod.appspot.com/o/generator%2Fgen_yhBDylH1ROylRnCFkVlyXA%2F2v2.glb?alt=media&token=0f01d40a-6ac3-49cb-a9e8-db0101aa6b54"
+            },
+            "camera": {
+                "z": 12.1348,
+                "focal": 85,
+                "projection": "PERSPECTIVE"
+            },
+            "heather": {
+                "scale": null,
+                "angle": null
+            },
+            "embroidery": {
+                "density": null,
+                "thickness": null,
+                "length": null,
+                "offset": null,
+                "scale": null
+            },
+            "style": null,
+            "flatPreview": false
+        },
+        {
+            "available": true,
+            "supportsTransparency": true,
+            "name": "New View",
+            "regions": [
+                "default",
+                "background"
+            ],
+            "images": [
+                {
+                    "type": "MAIN",
+                    "url": "https://firebasestorage.googleapis.com/v0/b/popshopprod.appspot.com/o/generator%2Fgen_yhBDylH1ROylRnCFkVlyXA%2F3.jpg?alt=media&token=2a157004-3628-470f-a950-73a5537cbc51"
+                },
+                {
+                    "type": "MASK",
+                    "url": "https://firebasestorage.googleapis.com/v0/b/popshopprod.appspot.com/o/generator%2Fgen_yhBDylH1ROylRnCFkVlyXA%2F3m.jpg?alt=media&token=2768fe12-23e5-4373-bdaf-59fb9097cb3d"
+                }
+            ],
+            "mesh": {
+                "scale": 1,
+                "url": "https://firebasestorage.googleapis.com/v0/b/popshopprod.appspot.com/o/generator%2Fgen_yhBDylH1ROylRnCFkVlyXA%2F3v2.glb?alt=media&token=fd7dda0a-c663-4d09-970d-c481aa5b9498"
+            },
+            "camera": {
+                "z": 12.1348,
+                "focal": 85,
+                "projection": "PERSPECTIVE"
+            },
+            "heather": {
+                "scale": null,
+                "angle": null
+            },
+            "embroidery": {
+                "density": null,
+                "thickness": null,
+                "length": null,
+                "offset": null,
+                "scale": null
+            },
+            "style": null,
+            "flatPreview": false
+        },
+        {
+            "available": true,
+            "supportsTransparency": true,
+            "name": "New View",
+            "regions": [
+                "default",
+                "background"
+            ],
+            "images": [
+                {
+                    "type": "MAIN",
+                    "url": "https://firebasestorage.googleapis.com/v0/b/popshopprod.appspot.com/o/generator%2Fgen_yhBDylH1ROylRnCFkVlyXA%2F1.jpg?alt=media&token=58ff0a08-ee02-44dc-93ee-306d57a606c0"
+                },
+                {
+                    "type": "MASK",
+                    "url": "https://firebasestorage.googleapis.com/v0/b/popshopprod.appspot.com/o/generator%2Fgen_yhBDylH1ROylRnCFkVlyXA%2F1m.jpg?alt=media&token=422c133c-b649-441b-a79c-70577ad0ec44"
+                }
+            ],
+            "mesh": {
+                "scale": 1,
+                "url": "https://firebasestorage.googleapis.com/v0/b/popshopprod.appspot.com/o/generator%2Fgen_yhBDylH1ROylRnCFkVlyXA%2F1v2.glb?alt=media&token=edec5d5e-30cc-4cc3-8da6-589ab36561fa"
+            },
+            "camera": {
+                "z": 12.1348,
+                "focal": 85,
+                "projection": "PERSPECTIVE"
+            },
+            "heather": {
+                "scale": null,
+                "angle": null
+            },
+            "embroidery": {
+                "density": null,
+                "thickness": null,
+                "length": null,
+                "offset": null,
+                "scale": null
+            },
+            "style": null,
+            "flatPreview": false
+        }
+    ],
+    "colors": [
+        {
+            "name": "White",
+            "mode": "SINGLE_COLOR",
+            "hex": "#ffffff",
+            "cv": 1,
+            "bv": 0.01,
+            "hl": 0.65,
+            "sh": 0.025,
+            "hr": 1,
+            "sa": 1,
+            "gv": 1,
+            "values": [
+                {
+                    "hex": "#ffffff",
+                    "cv": 1,
+                    "bv": 0.01,
+                    "hl": 0.65,
+                    "sh": 0.025,
+                    "hr": 1,
+                    "sa": 1,
+                    "gv": 1
+                }
+            ],
+            "textured": false,
+            "texture": {
+                "amount": null
+            }
+        }
+    ],
+    "stitchColors": [],
+    "stitchAndZipperColors": [],
+    "templates": [],
+    "preselectedGroup": null
+}

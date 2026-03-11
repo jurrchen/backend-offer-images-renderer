@@ -1,0 +1,145 @@
+include:
+  - project: 'popshopdev/infrastructure/gitlab-ci-templates'
+    file: 'Jobs/Tagging.gitlab-ci.yml'
+    ref: v3.1.0
+  - project: 'popshopdev/infrastructure/gitlab-ci-templates'
+    file: 'Jobs/Build.gitlab-ci.yml'
+    ref: v3.1.0
+  - project: 'popshopdev/infrastructure/gitlab-ci-templates'
+    file: 'Jobs/Promote.gitlab-ci.yml'
+    ref: v3.1.0
+  - project: 'popshopdev/infrastructure/gitlab-ci-templates'
+    file: 'Jobs/ConfirmDeployment.yml'
+    ref: v3.1.0
+  - project: 'popshopdev/infrastructure/gitlab-ci-templates'
+    file: 'Jobs/Rollback.yml'
+    ref: v3.1.0
+  - project: 'popshopdev/infrastructure/gitlab-ci-templates'
+    file: 'Jobs/Build-HelmChart.gitlab-ci.yml'
+    ref: v3.1.0
+
+stages:
+  - mark
+  - pre build
+  - build
+  - promote staging
+  - staging deployed confirmation
+  - promote prod
+  - prod deployed confirmation
+  - rollback
+
+variables:
+  CHART_ROOT: './k8s/chart/offer-renderer'
+
+tag repo:
+  rules:
+    # Run tagging only when code/build/chart files change
+    - if: '$CI_DEFAULT_BRANCH == $CI_COMMIT_BRANCH'
+      changes:
+        - apps/renderer-server/**/*
+        - packages/**/*
+        - package.json
+        - package-lock.json
+        - .npmrc
+        - k8s/chart/**/*
+        - .gitlab-ci.yml
+      when: always
+    # Skip otherwise (e.g., only kustomizations changed)
+    - when: never
+
+build:
+  variables:
+    BUILDX_CACHE_MODE: max
+    AUTO_DEVOPS_BUILD_CACHE: registry
+    DOCKERFILE_PATH: 'apps/renderer-server/Dockerfile'
+    KUBERNETES_SERVICE_CPU_REQUEST: 2
+    KUBERNETES_SERVICE_CPU_LIMIT: 2
+    KUBERNETES_SERVICE_MEMORY_REQUEST: 2Gi
+    KUBERNETES_SERVICE_MEMORY_LIMIT: 2Gi
+    AUTO_DEVOPS_BUILD_IMAGE_EXTRA_ARGS: '--build-arg GITLAB_AUTH_TOKEN=$CI_JOB_TOKEN'
+  interruptible: true
+  rules:
+    - if: '$CI_COMMIT_TAG'
+      when: on_success
+    - when: never
+
+promote staging:
+  needs:
+    - build
+  environment:
+    name: staging
+  variables:
+    APP_NAMESPACE_NAME: offer-renderer
+    ROLLBACK_ENABLED: 'true'
+    APP_NAME: offer-renderer
+  rules:
+    - if: '$CI_COMMIT_TAG'
+      when: on_success
+    - when: never
+
+await staging:
+  extends: .confirm_deployment
+  environment:
+    name: staging
+  variables:
+    KUBE_NAMESPACE: offer-renderer
+    APP_NAME: offer-renderer
+  dependencies:
+    - promote staging
+  stage: staging deployed confirmation
+  rules:
+    - if: $CI_COMMIT_TAG
+      when: on_success
+    - when: never
+
+promote prod:
+  environment:
+    name: production
+  variables:
+    APP_NAMESPACE_NAME: offer-renderer
+    ROLLBACK_ENABLED: 'true'
+    APP_NAME: offer-renderer
+  rules:
+    - if: $CI_COMMIT_TAG
+      when: manual
+    - when: never
+
+await prod:
+  extends: .confirm_deployment
+  environment:
+    name: production
+  variables:
+    KUBE_NAMESPACE: offer-renderer
+    APP_NAME: offer-renderer
+  dependencies:
+    - promote prod
+  stage: prod deployed confirmation
+  rules:
+    - if: $CI_COMMIT_TAG
+      when: on_success
+    - when: never
+
+rollback prod:
+  extends: .rollback
+  environment:
+    name: production
+  variables:
+    APP_NAMESPACE_NAME: offer-renderer
+    ROLLBACK_REVISION: 0
+    APP_NAME: offer-renderer
+  stage: rollback
+  allow_failure: true
+  rules:
+    - if: $CI_COMMIT_TAG
+      when: manual
+    - when: never
+
+build_artifact:
+  rules:
+    - when: never
+
+package chart:
+  needs: []
+  variables:
+    KUBERNETES_MEMORY_REQUEST: '768Mi'
+    KUBERNETES_MEMORY_LIMIT: '768Mi'

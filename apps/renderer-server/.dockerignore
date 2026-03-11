@@ -1,0 +1,43 @@
+# Node modules (will be installed in container)
+node_modules
+**/node_modules
+
+# Build artifacts (except product-renderer/dist which is pre-built)
+dist
+!../../product-renderer/dist
+build
+*.log
+
+# Development files
+.git
+.gitignore
+.env
+.env.local
+*.md
+!README.md
+
+# Test files
+test
+tests
+__tests__
+*.test.ts
+*.spec.ts
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Runtime data (will be mounted as volumes)
+assets/cdn/*
+data/*
+bulk-output/*
+
+# Keep directory structure
+!assets/cdn/.gitkeep
+!data/.gitkeep

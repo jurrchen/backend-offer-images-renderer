@@ -1,0 +1,7 @@
+apiVersion: source.toolkit.fluxcd.io/v1beta1
+kind: HelmRepository
+metadata:
+  name: offer-renderer-helm-chart
+  namespace: offer-renderer
+spec:
+  url: https://gitlab.com/api/v4/projects/79407192/packages/helm/incubator

@@ -1,0 +1,43 @@
+# Node modules (installed in container)
+**/node_modules
+
+# Build artifacts
+**/dist
+**/build
+**/*.log
+
+# Git
+.git
+
+# Development/IDE
+.vscode
+.idea
+**/*.swp
+**/*.swo
+
+# Environment files
+.env
+.env.*
+**/.env
+**/.env.*
+!.npmrc
+
+# Test files
+**/__tests__
+**/*.test.ts
+**/*.spec.ts
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Runtime data
+**/assets/cdn/*
+**/data/*
+**/bulk-output/*
+
+# Apps not needed for renderer-server build
+apps/renderer-api
+
+# Turbo cache
+.turbo

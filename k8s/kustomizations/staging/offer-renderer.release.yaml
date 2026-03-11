@@ -1,0 +1,30 @@
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: offer-renderer
+  namespace: offer-renderer
+spec:
+  values:
+    replicaCount: 2
+    image:
+      repository: registry.gitlab.com/popshopdev/platform/backend-offer-images-renderer/release # {"$imagepolicy": "offer-renderer:offer-renderer:name"}
+      tag: 'v0.11.0-0-gb51278b-staging' # {"$imagepolicy": "offer-renderer:offer-renderer:tag"}
+    env:
+      NODE_ENV: staging
+      LOG_LEVEL: info
+      LOG_FORMAT: json
+      SENTRY_ENVIRONMENT: staging
+      GCS_BUCKET_NAME: popshop-staging-offer-renderer-assets
+      GCP_PROJECT_ID: popshop-staging
+      PUBSUB_TOPIC_ID: renderer-jobs-completed
+    migrations:
+      enabled: true
+    serviceAccount:
+      create: true
+      automount: true
+      annotations:
+        iam.gke.io/gcp-service-account: svc-app-offer-renderer@popshop-staging.iam.gserviceaccount.com
+    service:
+      gateway: istio-internal-ingress/internal-communication
+      domains:
+        - offer-renderer.staging.fw

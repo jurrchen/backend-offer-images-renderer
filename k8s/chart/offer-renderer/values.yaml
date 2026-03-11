@@ -1,0 +1,105 @@
+# Default values for offer-renderer
+replicaCount: 1
+
+image:
+  repository: registry.gitlab.com/popshopdev/platform/backend-offer-images-renderer
+  pullPolicy: IfNotPresent
+  tag: ''
+
+imagePullSecrets:
+  - name: image-access
+
+serviceAccount:
+  create: false
+  automount: false
+  name: 'offer-renderer'  # Pre-created by Terraform with workload identity
+
+podAnnotations: {}
+podLabels: {}
+
+podSecurityContext: {}
+securityContext: {}
+
+terminationGracePeriodSeconds: 60
+
+service:
+  type: ClusterIP
+  port: 3000
+  targetPort: 3000
+  gateway: istio-internal-ingress/internal-communication
+  domains: []
+
+# Environment variables (simple key-value map, override in release files)
+env:
+  NODE_ENV: production
+  LOG_LEVEL: info
+  RUN_MIGRATIONS_ON_STARTUP: "false"
+
+# Secrets (populated via SOPS in kustomizations)
+secrets:
+  name: offer-renderer
+  data: {}  # e.g., DATABASE_URL: "...", API_KEY: "..."
+
+# Extra environment variables (for injecting secrets managed outside this deployment)
+extraEnv: []
+
+readinessProbe:
+  httpGet:
+    path: /api/v1/health/ready
+    port: 3000
+  initialDelaySeconds: 30
+  periodSeconds: 15
+  timeoutSeconds: 5
+  successThreshold: 1
+  failureThreshold: 3
+
+livenessProbe:
+  httpGet:
+    path: /api/v1/health/live
+    port: 3000
+  initialDelaySeconds: 60
+  periodSeconds: 30
+  timeoutSeconds: 5
+  failureThreshold: 3
+
+resources:
+  limits:
+    cpu: 4000m
+    memory: 16Gi
+  requests:
+    cpu: 1000m
+    memory: 2Gi
+
+autoscaling:
+  enabled: false
+  minReplicas: 1
+  maxReplicas: 3
+  targetCPUUtilizationPercentage: 70
+
+nodeSelector:
+  pool-group: cost-effective
+
+tolerations:
+  - effect: NoSchedule
+    key: app-type
+    operator: Equal
+    value: spot-ready
+
+affinity: {}
+
+# Database migrations (run as Helm pre-install/pre-upgrade hook)
+migrations:
+  enabled: false
+  resources:
+    limits:
+      cpu: 500m
+      memory: 512Mi
+    requests:
+      cpu: 200m
+      memory: 256Mi
+
+# Reloader configuration for automatic pod restarts on secret/configmap changes
+reloader:
+  enabled: false
+  watchSecrets: ''
+  watchConfigMaps: ''

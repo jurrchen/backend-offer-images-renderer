@@ -1,0 +1,11 @@
+creation_rules:
+  - path_regex: k8s/kustomizations/staging/.*\.secret.yaml
+    encrypted_regex: ^(data|stringData)$
+    gcp_kms:
+      - projects/popshop-staging/locations/us-west1/keyRings/vault-unseal-kr/cryptoKeys/kotlin-backend-flux-sops-key
+      - projects/popshop-staging/locations/us-west1/keyRings/vault-unseal-kr/cryptoKeys/frontend-flux-sops-key
+  - path_regex: k8s/kustomizations/prod/.*\.secret.yaml
+    encrypted_regex: ^(data|stringData)$
+    gcp_kms:
+      - projects/popshopprod/locations/us-west1/keyRings/vault-unseal-kr/cryptoKeys/kotlin-backend-flux-sops-key
+      - projects/popshopprod/locations/us-west1/keyRings/vault-unseal-kr/cryptoKeys/frontend-flux-sops-key

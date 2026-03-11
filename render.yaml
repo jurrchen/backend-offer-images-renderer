@@ -1,0 +1,47 @@
+# Render.com Blueprint — Fourthwall Offer Images Renderer
+# Deploy: connect this repo in Render dashboard → New → Blueprint
+#
+# After blueprint creates the service, configure:
+#   renderer-server → Settings → Docker Build Args → GITLAB_AUTH_TOKEN = <token>
+#   Then trigger a manual deploy.
+
+services:
+  - type: web
+    name: renderer-server
+    runtime: docker
+    plan: standard # 2GB RAM — fits ~2 workers. Use standard-plus (4GB) for more.
+    dockerfilePath: ./apps/renderer-server/Dockerfile
+    dockerContext: .
+    healthCheckPath: /api/v1/health/live
+    numInstances: 1
+    buildFilter:
+      paths:
+        - apps/renderer-server/**
+        - packages/shared/**
+        - packages/typescript-config/**
+        - package.json
+        - package-lock.json
+        - .npmrc
+    envVars:
+      - key: ENVIRONMENT
+        value: local
+      - key: PORT
+        value: "3000"
+      - key: CANVAS_SIZE
+        value: "2048"
+      - key: WORKER_COUNT
+        value: "2"
+      - key: JOB_TIMEOUT
+        value: "120000"
+      - key: NODE_HEAP_LIMIT_MB
+        value: "512"
+      - key: MAX_JOBS_PER_WORKER
+        value: "25"
+      - key: MAX_RESPAWNS
+        value: "5"
+      - key: MAX_QUEUE_DEPTH
+        value: "500"
+      - key: LOG_LEVEL
+        value: info
+      # No DATABASE_URL — uses in-memory job store, no analytics persistence
+      # Add a Render PostgreSQL + DATABASE_URL later if you need persistent jobs/analytics

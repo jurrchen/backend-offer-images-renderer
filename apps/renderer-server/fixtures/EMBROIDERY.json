@@ -1,0 +1,819 @@
+{
+    "id": "gen_w5s2_eNLQ8KTaxkED4Zt-g",
+    "name": "Atlantis 600 Recycled Cuffed Beanie [Embroidery, Printful]",
+    "regions": [
+        {
+            "id": "embroidery_front",
+            "name": "Embroidery Front",
+            "productionMethod": "EMBROIDERY",
+            "manufacturerOverlay": null,
+            "blueprint": {
+                "id": "vec_8f0f0635ab66464192",
+                "value": {
+                    "type": "root",
+                    "children": [
+                        {
+                            "name": "svg",
+                            "type": "element",
+                            "children": [
+                                {
+                                    "name": "path",
+                                    "type": "element",
+                                    "children": [],
+                                    "position": {
+                                        "end": {
+                                            "line": 1,
+                                            "column": 135,
+                                            "offset": 134
+                                        },
+                                        "start": {
+                                            "line": 1,
+                                            "column": 94,
+                                            "offset": 93
+                                        }
+                                    },
+                                    "attributes": {
+                                        "d": "M0 0h1024v1024H0z",
+                                        "fill": "none"
+                                    }
+                                },
+                                {
+                                    "name": "path",
+                                    "type": "element",
+                                    "children": [],
+                                    "position": {
+                                        "end": {
+                                            "line": 1,
+                                            "column": 381,
+                                            "offset": 380
+                                        },
+                                        "start": {
+                                            "line": 1,
+                                            "column": 135,
+                                            "offset": 134
+                                        }
+                                    },
+                                    "attributes": {
+                                        "d": "M104.66 942.52v-513.1s-1.54-389.64 405.7-389.64 402.76 389.64 402.76 389.64l4.4 512.94c.1 10.835-100.5 41.8-401.14 41.8s-411.72-30.801-411.72-41.64Z",
+                                        "fill": "#ededed",
+                                        "class": "paint",
+                                        "stroke": "#1e1e1c",
+                                        "stroke-width": "2",
+                                        "stroke-miterlimit": "10"
+                                    }
+                                },
+                                {
+                                    "name": "path",
+                                    "type": "element",
+                                    "children": [],
+                                    "position": {
+                                        "end": {
+                                            "line": 1,
+                                            "column": 561,
+                                            "offset": 560
+                                        },
+                                        "start": {
+                                            "line": 1,
+                                            "column": 381,
+                                            "offset": 380
+                                        }
+                                    },
+                                    "attributes": {
+                                        "d": "M914.877 613.36c.099 10.835-100.173 41.8-399.836 41.8S104.66 624.359 104.66 613.52",
+                                        "fill": "#ededed",
+                                        "class": "paint",
+                                        "stroke": "#1e1e1c",
+                                        "stroke-width": "2",
+                                        "stroke-miterlimit": "10"
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "end": {
+                                    "line": 1,
+                                    "column": 567,
+                                    "offset": 566
+                                },
+                                "start": {
+                                    "line": 1,
+                                    "column": 1,
+                                    "offset": 0
+                                }
+                            },
+                            "attributes": {
+                                "id": "Warstwa_1",
+                                "width": "1024",
+                                "height": "1024",
+                                "viewBox": "0 0 1024 1024",
+                                "data-name": "Warstwa 1"
+                            }
+                        }
+                    ],
+                    "position": {
+                        "end": {
+                            "line": 1,
+                            "column": 567,
+                            "offset": 566
+                        },
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        }
+                    }
+                }
+            },
+            "printArea": {
+                "type": "root",
+                "children": [
+                    {
+                        "name": "svg",
+                        "type": "element",
+                        "children": [
+                            {
+                                "name": "g",
+                                "type": "element",
+                                "children": [
+                                    {
+                                        "name": "path",
+                                        "type": "element",
+                                        "children": [],
+                                        "position": {
+                                            "end": {
+                                                "line": 1,
+                                                "column": 140,
+                                                "offset": 139
+                                            },
+                                            "start": {
+                                                "line": 1,
+                                                "column": 73,
+                                                "offset": 72
+                                            }
+                                        },
+                                        "attributes": {
+                                            "d": "M804.76 916.72H217.42V711.16h587.34v205.56Z",
+                                            "fill": "none"
+                                        }
+                                    }
+                                ],
+                                "position": {
+                                    "end": {
+                                        "line": 1,
+                                        "column": 144,
+                                        "offset": 143
+                                    },
+                                    "start": {
+                                        "line": 1,
+                                        "column": 57,
+                                        "offset": 56
+                                    }
+                                },
+                                "attributes": {
+                                    "id": "regions"
+                                }
+                            }
+                        ],
+                        "position": {
+                            "end": {
+                                "line": 1,
+                                "column": 150,
+                                "offset": 149
+                            },
+                            "start": {
+                                "line": 1,
+                                "column": 1,
+                                "offset": 0
+                            }
+                        },
+                        "attributes": {
+                            "width": "1024",
+                            "height": "1024",
+                            "viewBox": "0 0 1024 1024"
+                        }
+                    }
+                ],
+                "position": {
+                    "end": {
+                        "line": 1,
+                        "column": 150,
+                        "offset": 149
+                    },
+                    "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                    }
+                }
+            },
+            "dimensions": {
+                "dpi": 300,
+                "pixelsWidth": 1500,
+                "pixelsHeight": 525,
+                "inchesWidth": 5,
+                "inchesHeight": 1.75
+            },
+            "collided": [],
+            "required": false,
+            "supportsBackground": false,
+            "embroideryType": [
+                "FLAT"
+            ],
+            "renderingType": "PER_REGION",
+            "outputtingType": "REGION",
+            "type": "REGULAR",
+            "renderingRelationships": []
+        }
+    ],
+    "views": [
+        {
+            "available": true,
+            "supportsTransparency": true,
+            "name": "Packshot Front",
+            "regions": [
+                "embroidery_front"
+            ],
+            "images": [
+                {
+                    "type": "MAIN",
+                    "url": "https://firebasestorage.googleapis.com/v0/b/popshopprod.appspot.com/o/designer%2Fpro_69437fbde05a4d5882%2Fp1.jpg?alt=media&token=d6685c06-39d0-45f8-a069-3ee277a66139"
+                },
+                {
+                    "type": "MASK",
+                    "url": "https://firebasestorage.googleapis.com/v0/b/popshopprod.appspot.com/o/designer%2Fpro_69437fbde05a4d5882%2Fp1m.jpg?alt=media&token=f04a7699-e33f-41b4-b337-45ef882413cf"
+                }
+            ],
+            "mesh": {
+                "scale": 1,
+                "url": "https://cdn.fourthwall.com/generator/gen_w5s2_eNLQ8KTaxkED4Zt-g/7e736abf-b3b1-4afc-b7bf-948509c586fe.glb"
+            },
+            "camera": {
+                "z": 11.803,
+                "focal": 85,
+                "projection": "PERSPECTIVE"
+            },
+            "heather": {
+                "scale": null,
+                "angle": null
+            },
+            "embroidery": {
+                "density": 3.5,
+                "thickness": 0.55,
+                "length": 0.5,
+                "offset": 25,
+                "scale": 1.85
+            },
+            "style": null,
+            "flatPreview": false
+        },
+        {
+            "available": true,
+            "supportsTransparency": true,
+            "name": "Packshot Side",
+            "regions": [
+                "embroidery_front"
+            ],
+            "images": [
+                {
+                    "type": "MAIN",
+                    "url": "https://firebasestorage.googleapis.com/v0/b/popshopprod.appspot.com/o/designer%2Fpro_69437fbde05a4d5882%2Fp2.jpg?alt=media&token=a2132ab5-e06f-4b2b-ad0a-91f6e81506b1"
+                },
+                {
+                    "type": "MASK",
+                    "url": "https://firebasestorage.googleapis.com/v0/b/popshopprod.appspot.com/o/designer%2Fpro_69437fbde05a4d5882%2Fp2m.jpg?alt=media&token=c0ae2411-cf51-41b1-ad65-e0ede614d16a"
+                }
+            ],
+            "mesh": {
+                "scale": 1,
+                "url": "https://cdn.fourthwall.com/generator/gen_w5s2_eNLQ8KTaxkED4Zt-g/0a1b71ab-e142-444e-8c07-4d1181c12939.glb"
+            },
+            "camera": {
+                "z": 11.803,
+                "focal": 85,
+                "projection": "PERSPECTIVE"
+            },
+            "heather": {
+                "scale": null,
+                "angle": null
+            },
+            "embroidery": {
+                "density": 3.5,
+                "thickness": 0.55,
+                "length": 0.5,
+                "offset": 25,
+                "scale": 1.85
+            },
+            "style": null,
+            "flatPreview": false
+        },
+        {
+            "available": true,
+            "supportsTransparency": false,
+            "name": "Front #2",
+            "regions": [
+                "embroidery_front"
+            ],
+            "images": [
+                {
+                    "type": "MAIN",
+                    "url": "https://firebasestorage.googleapis.com/v0/b/popshopprod.appspot.com/o/designer%2Fpro_69437fbde05a4d5882%2FFW_02_2022_9867%20(1).jpg?alt=media&token=9e93ba3a-f8a7-472f-8f42-f795ebda36c9"
+                },
+                {
+                    "type": "MASK",
+                    "url": "https://firebasestorage.googleapis.com/v0/b/popshopprod.appspot.com/o/designer%2Fpro_69437fbde05a4d5882%2FFW_02_2022_9867_1.jpg?alt=media&token=ce2d79f0-017b-4123-aa2f-fa6a4413a43f"
+                }
+            ],
+            "mesh": {
+                "scale": 1,
+                "url": "https://firebasestorage.googleapis.com/v0/b/popshopprod.appspot.com/o/designer%2Fpro_69437fbde05a4d5882%2F2.glb?alt=media&token=2a6ed2ff-49e5-4726-876f-6e891193bc6d"
+            },
+            "camera": {
+                "z": 11.803,
+                "focal": 85,
+                "projection": "PERSPECTIVE"
+            },
+            "heather": {
+                "scale": null,
+                "angle": null
+            },
+            "embroidery": {
+                "density": 3.5,
+                "thickness": 0.55,
+                "length": 0.5,
+                "offset": 25,
+                "scale": 1.85
+            },
+            "style": null,
+            "flatPreview": false
+        },
+        {
+            "available": true,
+            "supportsTransparency": false,
+            "name": "Front #1",
+            "regions": [
+                "embroidery_front"
+            ],
+            "images": [
+                {
+                    "type": "MAIN",
+                    "url": "https://firebasestorage.googleapis.com/v0/b/popshopprod.appspot.com/o/designer%2Fpro_69437fbde05a4d5882%2FFW_02_2022_9864%20(1).jpg?alt=media&token=72a70c1e-8e78-45d5-ad84-55009c9cdbcc"
+                },
+                {
+                    "type": "MASK",
+                    "url": "https://firebasestorage.googleapis.com/v0/b/popshopprod.appspot.com/o/designer%2Fpro_69437fbde05a4d5882%2FFW_02_2022_9864_1.jpg?alt=media&token=2396229c-360f-4841-b8f1-0dfb632fff52"
+                }
+            ],
+            "mesh": {
+                "scale": 1,
+                "url": "https://firebasestorage.googleapis.com/v0/b/popshopprod.appspot.com/o/designer%2Fpro_69437fbde05a4d5882%2F1.glb?alt=media&token=23720249-2706-46b9-9640-0c7ae674ce5b"
+            },
+            "camera": {
+                "z": 11.803,
+                "focal": 85,
+                "projection": "PERSPECTIVE"
+            },
+            "heather": {
+                "scale": null,
+                "angle": null
+            },
+            "embroidery": {
+                "density": 3.5,
+                "thickness": 0.55,
+                "length": 0.5,
+                "offset": 25,
+                "scale": 1.85
+            },
+            "style": null,
+            "flatPreview": false
+        },
+        {
+            "available": true,
+            "supportsTransparency": false,
+            "name": "Back",
+            "regions": [
+                "embroidery_front"
+            ],
+            "images": [
+                {
+                    "type": "MAIN",
+                    "url": "https://firebasestorage.googleapis.com/v0/b/popshopprod.appspot.com/o/designer%2Fpro_69437fbde05a4d5882%2FFW_02_2022_9869%20(1).jpg?alt=media&token=d4abd3c9-c95a-4a0f-b1fb-4c67a31029f1"
+                },
+                {
+                    "type": "MASK",
+                    "url": "https://firebasestorage.googleapis.com/v0/b/popshopprod.appspot.com/o/designer%2Fpro_69437fbde05a4d5882%2FFW_02_2022_9869_1.jpg?alt=media&token=0748b54c-b40c-480c-835d-15f8afde7500"
+                }
+            ],
+            "mesh": {
+                "scale": 1,
+                "url": "https://firebasestorage.googleapis.com/v0/b/popshopprod.appspot.com/o/designer%2Fpro_69437fbde05a4d5882%2Fdefaultmesh.glb?alt=media&token=8da4a77a-9a4b-4c67-8772-fa245d59450f"
+            },
+            "camera": {
+                "z": 11.803,
+                "focal": 85,
+                "projection": "PERSPECTIVE"
+            },
+            "heather": {
+                "scale": null,
+                "angle": null
+            },
+            "embroidery": {
+                "density": 3.5,
+                "thickness": 0.55,
+                "length": 0.5,
+                "offset": 25,
+                "scale": 1.85
+            },
+            "style": null,
+            "flatPreview": false
+        },
+        {
+            "available": true,
+            "supportsTransparency": false,
+            "name": "Model 2 Front 1",
+            "regions": [
+                "embroidery_front"
+            ],
+            "images": [
+                {
+                    "type": "MAIN",
+                    "url": "https://cdn.fourthwall.com/generator/gen_w5s2_eNLQ8KTaxkED4Zt-g/c4a16eae-3c3e-4fd7-af47-cd54db6c4a3e.jpeg"
+                },
+                {
+                    "type": "MASK",
+                    "url": "https://cdn.fourthwall.com/generator/gen_w5s2_eNLQ8KTaxkED4Zt-g/a851e6f3-b722-44cc-903e-6c4f5a2c9b14.jpeg"
+                }
+            ],
+            "mesh": {
+                "scale": 1,
+                "url": "https://cdn.fourthwall.com/generator/gen_w5s2_eNLQ8KTaxkED4Zt-g/2f1529f7-2eea-4a90-9165-7725daecdefe.glb"
+            },
+            "camera": {
+                "z": 11.803,
+                "focal": 85,
+                "projection": "PERSPECTIVE"
+            },
+            "heather": {
+                "scale": null,
+                "angle": null
+            },
+            "embroidery": {
+                "density": 3.5,
+                "thickness": 0.55,
+                "length": 0.5,
+                "offset": 25,
+                "scale": 1.85
+            },
+            "style": null,
+            "flatPreview": false
+        },
+        {
+            "available": true,
+            "supportsTransparency": false,
+            "name": "Model 2 Front 2",
+            "regions": [
+                "embroidery_front"
+            ],
+            "images": [
+                {
+                    "type": "MAIN",
+                    "url": "https://cdn.fourthwall.com/generator/gen_w5s2_eNLQ8KTaxkED4Zt-g/92d1519e-ebff-4dae-a230-89b2659b7fcb.jpeg"
+                },
+                {
+                    "type": "MASK",
+                    "url": "https://cdn.fourthwall.com/generator/gen_w5s2_eNLQ8KTaxkED4Zt-g/b2943c24-6146-4aa4-a3ee-5891f4a33c58.jpeg"
+                }
+            ],
+            "mesh": {
+                "scale": 1,
+                "url": "https://cdn.fourthwall.com/generator/gen_w5s2_eNLQ8KTaxkED4Zt-g/7d95b792-c43d-4f2f-955d-8647ddd09ae3.glb"
+            },
+            "camera": {
+                "z": 11.803,
+                "focal": 85,
+                "projection": "PERSPECTIVE"
+            },
+            "heather": {
+                "scale": null,
+                "angle": null
+            },
+            "embroidery": {
+                "density": 3.5,
+                "thickness": 0.55,
+                "length": 0.5,
+                "offset": 25,
+                "scale": 1.85
+            },
+            "style": null,
+            "flatPreview": false
+        },
+        {
+            "available": true,
+            "supportsTransparency": false,
+            "name": "Model 2 Side",
+            "regions": [
+                "embroidery_front"
+            ],
+            "images": [
+                {
+                    "type": "MAIN",
+                    "url": "https://cdn.fourthwall.com/generator/gen_w5s2_eNLQ8KTaxkED4Zt-g/41fd103d-b205-4f92-870c-fbdea61c0576.jpeg"
+                },
+                {
+                    "type": "MASK",
+                    "url": "https://cdn.fourthwall.com/generator/gen_w5s2_eNLQ8KTaxkED4Zt-g/11bc7751-4b27-4d69-ad3c-bc8c0c018e06.jpeg"
+                }
+            ],
+            "mesh": {
+                "scale": 1,
+                "url": "https://cdn.fourthwall.com/generator/gen_w5s2_eNLQ8KTaxkED4Zt-g/549580f9-e8b0-4d53-8620-84e0a270e7c6.glb"
+            },
+            "camera": {
+                "z": 11.803,
+                "focal": 85,
+                "projection": "PERSPECTIVE"
+            },
+            "heather": {
+                "scale": null,
+                "angle": null
+            },
+            "embroidery": {
+                "density": 3.5,
+                "thickness": 0.55,
+                "length": 0.5,
+                "offset": 25,
+                "scale": 1.85
+            },
+            "style": null,
+            "flatPreview": false
+        },
+        {
+            "available": true,
+            "supportsTransparency": false,
+            "name": "Model 2 Back",
+            "regions": [
+                "embroidery_front"
+            ],
+            "images": [
+                {
+                    "type": "MAIN",
+                    "url": "https://cdn.fourthwall.com/generator/gen_w5s2_eNLQ8KTaxkED4Zt-g/67d81189-91e1-4447-9662-9279198abc2d.jpeg"
+                },
+                {
+                    "type": "MASK",
+                    "url": "https://cdn.fourthwall.com/generator/gen_w5s2_eNLQ8KTaxkED4Zt-g/08e035d8-a762-4fee-b140-8b2f4a0f55e3.jpeg"
+                }
+            ],
+            "mesh": {
+                "scale": 1,
+                "url": "https://cdn.fourthwall.com/generator/gen_w5s2_eNLQ8KTaxkED4Zt-g/b9696acc-7942-426d-b237-da1fd5721f98.glb"
+            },
+            "camera": {
+                "z": 11.803,
+                "focal": 85,
+                "projection": "PERSPECTIVE"
+            },
+            "heather": {
+                "scale": null,
+                "angle": null
+            },
+            "embroidery": {
+                "density": 3.5,
+                "thickness": 0.55,
+                "length": 0.5,
+                "offset": 25,
+                "scale": 1.85
+            },
+            "style": null,
+            "flatPreview": false
+        }
+    ],
+    "colors": [
+        {
+            "name": "Navy",
+            "mode": "SINGLE_COLOR",
+            "hex": "#202b45",
+            "cv": 1.25,
+            "bv": 0,
+            "hl": 0.6,
+            "sh": 0.025,
+            "hr": 0.55,
+            "sa": 1,
+            "gv": 1,
+            "values": [
+                {
+                    "hex": "#202b45",
+                    "cv": 1.25,
+                    "bv": 0,
+                    "hl": 0.6,
+                    "sh": 0.025,
+                    "hr": 0.55,
+                    "sa": 1,
+                    "gv": 1
+                }
+            ],
+            "textured": false,
+            "texture": {
+                "amount": null
+            }
+        },
+        {
+            "name": "Light Blue",
+            "mode": "SINGLE_COLOR",
+            "hex": "#c4d5df",
+            "cv": 1.3,
+            "bv": 0,
+            "hl": 1,
+            "sh": 0.025,
+            "hr": 1,
+            "sa": 0.5,
+            "gv": 0.8,
+            "values": [
+                {
+                    "hex": "#c4d5df",
+                    "cv": 1.3,
+                    "bv": 0,
+                    "hl": 1,
+                    "sh": 0.025,
+                    "hr": 1,
+                    "sa": 0.5,
+                    "gv": 0.8
+                }
+            ],
+            "textured": false,
+            "texture": {
+                "amount": null
+            }
+        },
+        {
+            "name": "Light Grey Melange",
+            "mode": "SINGLE_COLOR",
+            "hex": "#b8b3af",
+            "cv": 1.15,
+            "bv": 0,
+            "hl": 0.7,
+            "sh": 0.025,
+            "hr": 0.45,
+            "sa": 0,
+            "gv": 1,
+            "values": [
+                {
+                    "hex": "#b8b3af",
+                    "cv": 1.15,
+                    "bv": 0,
+                    "hl": 0.7,
+                    "sh": 0.025,
+                    "hr": 0.45,
+                    "sa": 0,
+                    "gv": 1
+                }
+            ],
+            "textured": false,
+            "texture": {
+                "amount": null
+            }
+        },
+        {
+            "name": "Olive",
+            "mode": "SINGLE_COLOR",
+            "hex": "#474d31",
+            "cv": 1.25,
+            "bv": 0,
+            "hl": 0.65,
+            "sh": 0.025,
+            "hr": 0.55,
+            "sa": 0.5,
+            "gv": 1,
+            "values": [
+                {
+                    "hex": "#474d31",
+                    "cv": 1.25,
+                    "bv": 0,
+                    "hl": 0.65,
+                    "sh": 0.025,
+                    "hr": 0.55,
+                    "sa": 0.5,
+                    "gv": 1
+                }
+            ],
+            "textured": false,
+            "texture": {
+                "amount": null
+            }
+        },
+        {
+            "name": "Beige",
+            "mode": "SINGLE_COLOR",
+            "hex": "#f4d8b5",
+            "cv": 1.15,
+            "bv": 0,
+            "hl": 0.5,
+            "sh": 0.025,
+            "hr": 0.55,
+            "sa": 0.3,
+            "gv": 1,
+            "values": [
+                {
+                    "hex": "#f4d8b5",
+                    "cv": 1.15,
+                    "bv": 0,
+                    "hl": 0.5,
+                    "sh": 0.025,
+                    "hr": 0.55,
+                    "sa": 0.3,
+                    "gv": 1
+                }
+            ],
+            "textured": false,
+            "texture": {
+                "amount": null
+            }
+        },
+        {
+            "name": "Acid Green",
+            "mode": "SINGLE_COLOR",
+            "hex": "#92d48e",
+            "cv": 1.3,
+            "bv": 0,
+            "hl": 0.6,
+            "sh": 0.025,
+            "hr": 0.55,
+            "sa": 0.6,
+            "gv": 0.8,
+            "values": [
+                {
+                    "hex": "#92d48e",
+                    "cv": 1.3,
+                    "bv": 0,
+                    "hl": 0.6,
+                    "sh": 0.025,
+                    "hr": 0.55,
+                    "sa": 0.6,
+                    "gv": 0.8
+                }
+            ],
+            "textured": false,
+            "texture": {
+                "amount": null
+            }
+        },
+        {
+            "name": "Mustard",
+            "mode": "SINGLE_COLOR",
+            "hex": "#ca780e",
+            "cv": 1.25,
+            "bv": 0.05,
+            "hl": 0.55,
+            "sh": 0.025,
+            "hr": 0.5,
+            "sa": 1,
+            "gv": 0.95,
+            "values": [
+                {
+                    "hex": "#ca780e",
+                    "cv": 1.25,
+                    "bv": 0.05,
+                    "hl": 0.55,
+                    "sh": 0.025,
+                    "hr": 0.5,
+                    "sa": 1,
+                    "gv": 0.95
+                }
+            ],
+            "textured": false,
+            "texture": {
+                "amount": null
+            }
+        },
+        {
+            "name": "Black",
+            "mode": "SINGLE_COLOR",
+            "hex": "#242829",
+            "cv": 1,
+            "bv": 0,
+            "hl": 0.4,
+            "sh": 0.025,
+            "hr": 0.6,
+            "sa": 1,
+            "gv": 1,
+            "values": [
+                {
+                    "hex": "#242829",
+                    "cv": 1,
+                    "bv": 0,
+                    "hl": 0.4,
+                    "sh": 0.025,
+                    "hr": 0.6,
+                    "sa": 1,
+                    "gv": 1
+                }
+            ],
+            "textured": false,
+            "texture": {
+                "amount": null
+            }
+        }
+    ],
+    "stitchColors": [],
+    "stitchAndZipperColors": [],
+    "templates": [],
+    "preselectedGroup": null
+}

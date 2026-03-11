@@ -1,0 +1,657 @@
+{
+    "id": "gen_4nXFayCOS3GZemhccuNSsw",
+    "name": "All-Over Print Basic Pillow S",
+    "regions": [
+        {
+            "id": "front",
+            "name": "Front",
+            "productionMethod": "SUBLIMATION",
+            "manufacturerOverlay": null,
+            "blueprint": {
+                "id": "vec_204cf114931847e58a",
+                "value": {
+                    "type": "root",
+                    "children": [
+                        {
+                            "name": "svg",
+                            "type": "element",
+                            "children": [
+                                {
+                                    "name": "path",
+                                    "type": "element",
+                                    "children": [],
+                                    "position": {
+                                        "end": {
+                                            "line": 1,
+                                            "column": 135,
+                                            "offset": 134
+                                        },
+                                        "start": {
+                                            "line": 1,
+                                            "column": 94,
+                                            "offset": 93
+                                        }
+                                    },
+                                    "attributes": {
+                                        "d": "M0 0h1024v1024H0z",
+                                        "fill": "none"
+                                    }
+                                },
+                                {
+                                    "name": "path",
+                                    "type": "element",
+                                    "children": [],
+                                    "position": {
+                                        "end": {
+                                            "line": 1,
+                                            "column": 215,
+                                            "offset": 214
+                                        },
+                                        "start": {
+                                            "line": 1,
+                                            "column": 135,
+                                            "offset": 134
+                                        }
+                                    },
+                                    "attributes": {
+                                        "d": "M962 962H62V62h900z",
+                                        "fill": "#fff",
+                                        "class": "paint",
+                                        "stroke-miterlimit": "10"
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "end": {
+                                    "line": 1,
+                                    "column": 221,
+                                    "offset": 220
+                                },
+                                "start": {
+                                    "line": 1,
+                                    "column": 1,
+                                    "offset": 0
+                                }
+                            },
+                            "attributes": {
+                                "id": "Warstwa_1",
+                                "width": "1024",
+                                "height": "1024",
+                                "viewBox": "0 0 1024 1024",
+                                "data-name": "Warstwa 1"
+                            }
+                        }
+                    ],
+                    "position": {
+                        "end": {
+                            "line": 1,
+                            "column": 221,
+                            "offset": 220
+                        },
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        }
+                    }
+                }
+            },
+            "printArea": {
+                "type": "root",
+                "children": [
+                    {
+                        "name": "svg",
+                        "type": "element",
+                        "children": [
+                            {
+                                "name": "g",
+                                "type": "element",
+                                "children": [
+                                    {
+                                        "name": "path",
+                                        "type": "element",
+                                        "children": [],
+                                        "position": {
+                                            "end": {
+                                                "line": 1,
+                                                "column": 197,
+                                                "offset": 196
+                                            },
+                                            "start": {
+                                                "line": 1,
+                                                "column": 108,
+                                                "offset": 107
+                                            }
+                                        },
+                                        "attributes": {
+                                            "d": "m962,962H62V62h900v900Z",
+                                            "class": "paint",
+                                            "stroke": "#1d1d1b",
+                                            "stroke-miterlimit": "10"
+                                        }
+                                    }
+                                ],
+                                "position": {
+                                    "end": {
+                                        "line": 1,
+                                        "column": 201,
+                                        "offset": 200
+                                    },
+                                    "start": {
+                                        "line": 1,
+                                        "column": 92,
+                                        "offset": 91
+                                    }
+                                },
+                                "attributes": {
+                                    "id": "regions"
+                                }
+                            }
+                        ],
+                        "position": {
+                            "end": {
+                                "line": 1,
+                                "column": 207,
+                                "offset": 206
+                            },
+                            "start": {
+                                "line": 1,
+                                "column": 1,
+                                "offset": 0
+                            }
+                        },
+                        "attributes": {
+                            "width": "1024",
+                            "xmlns": "http://www.w3.org/2000/svg",
+                            "height": "1024",
+                            "viewBox": "0 0 1024 1024"
+                        }
+                    }
+                ],
+                "position": {
+                    "end": {
+                        "line": 1,
+                        "column": 207,
+                        "offset": 206
+                    },
+                    "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                    }
+                }
+            },
+            "dimensions": {
+                "dpi": 300,
+                "pixelsWidth": 5700,
+                "pixelsHeight": 5700,
+                "inchesWidth": 19,
+                "inchesHeight": 19
+            },
+            "collided": [],
+            "required": false,
+            "supportsBackground": true,
+            "embroideryType": [],
+            "renderingType": "PER_REGION",
+            "outputtingType": "REGION",
+            "type": "REGULAR",
+            "renderingRelationships": []
+        },
+        {
+            "id": "back",
+            "name": "Back",
+            "productionMethod": "SUBLIMATION",
+            "manufacturerOverlay": null,
+            "blueprint": {
+                "id": "vec_204cf114931847e58a",
+                "value": {
+                    "type": "root",
+                    "children": [
+                        {
+                            "name": "svg",
+                            "type": "element",
+                            "children": [
+                                {
+                                    "name": "path",
+                                    "type": "element",
+                                    "children": [],
+                                    "position": {
+                                        "end": {
+                                            "line": 1,
+                                            "column": 135,
+                                            "offset": 134
+                                        },
+                                        "start": {
+                                            "line": 1,
+                                            "column": 94,
+                                            "offset": 93
+                                        }
+                                    },
+                                    "attributes": {
+                                        "d": "M0 0h1024v1024H0z",
+                                        "fill": "none"
+                                    }
+                                },
+                                {
+                                    "name": "path",
+                                    "type": "element",
+                                    "children": [],
+                                    "position": {
+                                        "end": {
+                                            "line": 1,
+                                            "column": 215,
+                                            "offset": 214
+                                        },
+                                        "start": {
+                                            "line": 1,
+                                            "column": 135,
+                                            "offset": 134
+                                        }
+                                    },
+                                    "attributes": {
+                                        "d": "M962 962H62V62h900z",
+                                        "fill": "#fff",
+                                        "class": "paint",
+                                        "stroke-miterlimit": "10"
+                                    }
+                                }
+                            ],
+                            "position": {
+                                "end": {
+                                    "line": 1,
+                                    "column": 221,
+                                    "offset": 220
+                                },
+                                "start": {
+                                    "line": 1,
+                                    "column": 1,
+                                    "offset": 0
+                                }
+                            },
+                            "attributes": {
+                                "id": "Warstwa_1",
+                                "width": "1024",
+                                "height": "1024",
+                                "viewBox": "0 0 1024 1024",
+                                "data-name": "Warstwa 1"
+                            }
+                        }
+                    ],
+                    "position": {
+                        "end": {
+                            "line": 1,
+                            "column": 221,
+                            "offset": 220
+                        },
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        }
+                    }
+                }
+            },
+            "printArea": {
+                "type": "root",
+                "children": [
+                    {
+                        "name": "svg",
+                        "type": "element",
+                        "children": [
+                            {
+                                "name": "g",
+                                "type": "element",
+                                "children": [
+                                    {
+                                        "name": "path",
+                                        "type": "element",
+                                        "children": [],
+                                        "position": {
+                                            "end": {
+                                                "line": 1,
+                                                "column": 197,
+                                                "offset": 196
+                                            },
+                                            "start": {
+                                                "line": 1,
+                                                "column": 108,
+                                                "offset": 107
+                                            }
+                                        },
+                                        "attributes": {
+                                            "d": "m962,962H62V62h900v900Z",
+                                            "class": "paint",
+                                            "stroke": "#1d1d1b",
+                                            "stroke-miterlimit": "10"
+                                        }
+                                    }
+                                ],
+                                "position": {
+                                    "end": {
+                                        "line": 1,
+                                        "column": 201,
+                                        "offset": 200
+                                    },
+                                    "start": {
+                                        "line": 1,
+                                        "column": 92,
+                                        "offset": 91
+                                    }
+                                },
+                                "attributes": {
+                                    "id": "regions"
+                                }
+                            }
+                        ],
+                        "position": {
+                            "end": {
+                                "line": 1,
+                                "column": 207,
+                                "offset": 206
+                            },
+                            "start": {
+                                "line": 1,
+                                "column": 1,
+                                "offset": 0
+                            }
+                        },
+                        "attributes": {
+                            "width": "1024",
+                            "xmlns": "http://www.w3.org/2000/svg",
+                            "height": "1024",
+                            "viewBox": "0 0 1024 1024"
+                        }
+                    }
+                ],
+                "position": {
+                    "end": {
+                        "line": 1,
+                        "column": 207,
+                        "offset": 206
+                    },
+                    "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                    }
+                }
+            },
+            "dimensions": {
+                "dpi": 300,
+                "pixelsWidth": 5700,
+                "pixelsHeight": 5700,
+                "inchesWidth": 19,
+                "inchesHeight": 19
+            },
+            "collided": [],
+            "required": false,
+            "supportsBackground": true,
+            "embroideryType": [],
+            "renderingType": "PER_REGION",
+            "outputtingType": "REGION",
+            "type": "REGULAR",
+            "renderingRelationships": []
+        }
+    ],
+    "views": [
+        {
+            "available": true,
+            "supportsTransparency": true,
+            "name": "New View",
+            "regions": [
+                "front",
+                "back"
+            ],
+            "images": [
+                {
+                    "type": "MAIN",
+                    "url": "https://cdn.fourthwall.com/generator/gen_4nXFayCOS3GZemhccuNSsw/5b8f6787-6df3-4803-a321-43732a14d58a.jpg"
+                },
+                {
+                    "type": "MASK",
+                    "url": "https://cdn.fourthwall.com/generator/gen_4nXFayCOS3GZemhccuNSsw/1ed808c0-fa85-4042-9715-410a5c4d5294.jpg"
+                },
+                {
+                    "type": "OPTIONAL_MASK",
+                    "url": "https://cdn.fourthwall.com/generator/gen_4nXFayCOS3GZemhccuNSsw/379374cb-90a1-4f4f-9193-43c1992384e0.jpg"
+                }
+            ],
+            "mesh": {
+                "scale": 1,
+                "url": "https://cdn.fourthwall.com/generator/gen_4nXFayCOS3GZemhccuNSsw/9d027900-f994-4b4c-be3c-cfc311d108a9.glb"
+            },
+            "camera": {
+                "z": 11.806,
+                "focal": 85,
+                "projection": "PERSPECTIVE"
+            },
+            "heather": {
+                "scale": null,
+                "angle": null
+            },
+            "embroidery": {
+                "density": null,
+                "thickness": null,
+                "length": null,
+                "offset": null,
+                "scale": null
+            },
+            "style": null,
+            "flatPreview": false
+        },
+        {
+            "available": true,
+            "supportsTransparency": true,
+            "name": "New View",
+            "regions": [
+                "front",
+                "back"
+            ],
+            "images": [
+                {
+                    "type": "MAIN",
+                    "url": "https://cdn.fourthwall.com/generator/gen_4nXFayCOS3GZemhccuNSsw/0148390b-4727-46a5-8f53-f9efcb20f7db.jpg"
+                },
+                {
+                    "type": "MASK",
+                    "url": "https://cdn.fourthwall.com/generator/gen_4nXFayCOS3GZemhccuNSsw/606d4a50-a73a-4825-bfed-30c8b0e965df.jpg"
+                },
+                {
+                    "type": "OPTIONAL_MASK",
+                    "url": "https://cdn.fourthwall.com/generator/gen_4nXFayCOS3GZemhccuNSsw/a42a1183-ed29-4126-8184-f044b6405994.jpg"
+                }
+            ],
+            "mesh": {
+                "scale": 1,
+                "url": "https://cdn.fourthwall.com/generator/gen_4nXFayCOS3GZemhccuNSsw/4b5c6322-a5f2-4e0d-baa3-bcb7ba81f26d.glb"
+            },
+            "camera": {
+                "z": 11.806,
+                "focal": 85,
+                "projection": "PERSPECTIVE"
+            },
+            "heather": {
+                "scale": null,
+                "angle": null
+            },
+            "embroidery": {
+                "density": null,
+                "thickness": null,
+                "length": null,
+                "offset": null,
+                "scale": null
+            },
+            "style": null,
+            "flatPreview": false
+        },
+        {
+            "available": true,
+            "supportsTransparency": true,
+            "name": "New View",
+            "regions": [
+                "front",
+                "back"
+            ],
+            "images": [
+                {
+                    "type": "MAIN",
+                    "url": "https://cdn.fourthwall.com/generator/gen_4nXFayCOS3GZemhccuNSsw/1c52762d-d4f4-4ea7-bae8-e52cdcb49acb.jpg"
+                },
+                {
+                    "type": "MASK",
+                    "url": "https://cdn.fourthwall.com/generator/gen_4nXFayCOS3GZemhccuNSsw/dd5b6840-72bd-4c1a-9c81-f872a0214d6b.jpg"
+                },
+                {
+                    "type": "OPTIONAL_MASK",
+                    "url": "https://cdn.fourthwall.com/generator/gen_4nXFayCOS3GZemhccuNSsw/503f8467-1f3f-4cca-9076-e59950063ae8.jpg"
+                }
+            ],
+            "mesh": {
+                "scale": 1,
+                "url": "https://cdn.fourthwall.com/generator/gen_4nXFayCOS3GZemhccuNSsw/66f8f33b-a04e-4df5-b1b2-8a01052477a2.glb"
+            },
+            "camera": {
+                "z": 11.806,
+                "focal": 85,
+                "projection": "PERSPECTIVE"
+            },
+            "heather": {
+                "scale": null,
+                "angle": null
+            },
+            "embroidery": {
+                "density": null,
+                "thickness": null,
+                "length": null,
+                "offset": null,
+                "scale": null
+            },
+            "style": null,
+            "flatPreview": false
+        },
+        {
+            "available": true,
+            "supportsTransparency": true,
+            "name": "New View",
+            "regions": [
+                "front",
+                "back"
+            ],
+            "images": [
+                {
+                    "type": "MAIN",
+                    "url": "https://cdn.fourthwall.com/generator/gen_4nXFayCOS3GZemhccuNSsw/a4d0f946-a7ed-4401-b5c9-8bc62b441b81.jpg"
+                },
+                {
+                    "type": "MASK",
+                    "url": "https://cdn.fourthwall.com/generator/gen_4nXFayCOS3GZemhccuNSsw/4738995c-f4ec-46ef-8bef-3a259b669cd6.jpg"
+                },
+                {
+                    "type": "OPTIONAL_MASK",
+                    "url": "https://cdn.fourthwall.com/generator/gen_4nXFayCOS3GZemhccuNSsw/27f08fb6-8689-4c98-ba84-d7463a8bc894.jpg"
+                }
+            ],
+            "mesh": {
+                "scale": 1,
+                "url": "https://cdn.fourthwall.com/generator/gen_4nXFayCOS3GZemhccuNSsw/1f86bf51-5d7f-4601-addb-bc1acca6a733.glb"
+            },
+            "camera": {
+                "z": 11.806,
+                "focal": 85,
+                "projection": "PERSPECTIVE"
+            },
+            "heather": {
+                "scale": null,
+                "angle": null
+            },
+            "embroidery": {
+                "density": null,
+                "thickness": null,
+                "length": null,
+                "offset": null,
+                "scale": null
+            },
+            "style": null,
+            "flatPreview": false
+        },
+        {
+            "available": true,
+            "supportsTransparency": true,
+            "name": "New View",
+            "regions": [
+                "front",
+                "back"
+            ],
+            "images": [
+                {
+                    "type": "MAIN",
+                    "url": "https://cdn.fourthwall.com/generator/gen_4nXFayCOS3GZemhccuNSsw/c5dd47c9-3b73-42ff-a018-a4ff62ba74cf.jpg"
+                },
+                {
+                    "type": "MASK",
+                    "url": "https://cdn.fourthwall.com/generator/gen_4nXFayCOS3GZemhccuNSsw/87274f3b-f103-495f-a04d-c5c4948e0efc.jpg"
+                },
+                {
+                    "type": "OPTIONAL_MASK",
+                    "url": "https://cdn.fourthwall.com/generator/gen_4nXFayCOS3GZemhccuNSsw/e20ffdcf-e1b5-4e27-b078-66432b05c465.jpg"
+                }
+            ],
+            "mesh": {
+                "scale": 1,
+                "url": "https://cdn.fourthwall.com/generator/gen_4nXFayCOS3GZemhccuNSsw/32bfeaf0-6b9a-43c5-8d06-d605a5aac46d.glb"
+            },
+            "camera": {
+                "z": 11.806,
+                "focal": 85,
+                "projection": "PERSPECTIVE"
+            },
+            "heather": {
+                "scale": null,
+                "angle": null
+            },
+            "embroidery": {
+                "density": null,
+                "thickness": null,
+                "length": null,
+                "offset": null,
+                "scale": null
+            },
+            "style": null,
+            "flatPreview": false
+        }
+    ],
+    "colors": [
+        {
+            "name": "All-Over Print",
+            "mode": "SINGLE_COLOR",
+            "hex": "#fefefe",
+            "cv": 0.8,
+            "bv": 0.118,
+            "hl": 1,
+            "sh": 0.025,
+            "hr": 1,
+            "sa": 1,
+            "gv": 1,
+            "values": [
+                {
+                    "hex": "#fefefe",
+                    "cv": 0.8,
+                    "bv": 0.118,
+                    "hl": 1,
+                    "sh": 0.025,
+                    "hr": 1,
+                    "sa": 1,
+                    "gv": 1
+                }
+            ],
+            "textured": false,
+            "texture": {
+                "amount": null
+            }
+        }
+    ],
+    "stitchColors": [],
+    "stitchAndZipperColors": [],
+    "templates": [],
+    "preselectedGroup": null
+}

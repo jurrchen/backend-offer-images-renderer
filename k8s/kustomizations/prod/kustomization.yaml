@@ -1,0 +1,13 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+resources:
+  - ../base
+
+patches:
+  - path: chart.repository.yaml
+  - path: offer-renderer.release.yaml
+  - path: offer-renderer.release.secret.yaml
+  - path: image.policy.yaml
+  - path: image.repository.yaml
+  - path: image.update.automation.yaml

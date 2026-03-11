@@ -1,0 +1,28 @@
+[
+  {
+    "active": true,
+    "id": "test-minimal",
+    "size": "512",
+    "printMethod": "DTG",
+    "options": {},
+    "multicolorDefinitions": [],
+    "views": [],
+    "colors": [
+      {
+        "name": "Black",
+        "mode": "SINGLE_COLOR",
+        "hex": "#000000",
+        "cv": 255,
+        "bv": 100,
+        "hl": 0.95,
+        "sh": 0.025,
+        "hr": 0.45,
+        "sa": 100,
+        "gv": 1.0,
+        "textured": false,
+        "texture": {},
+        "values": []
+      }
+    ]
+  }
+]

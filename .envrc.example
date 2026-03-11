@@ -1,0 +1,2 @@
+# GitLab token for @fourthwall/* npm packages (required for npm install / docker build)
+export GITLAB_AUTH_TOKEN=glpat-xxx

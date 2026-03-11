@@ -1,0 +1,15 @@
+apiVersion: image.toolkit.fluxcd.io/v1beta1
+kind: ImagePolicy
+metadata:
+  name: offer-renderer
+  namespace: offer-renderer
+spec:
+  imageRepositoryRef:
+    name: offer-renderer
+    namespace: offer-renderer
+  filterTags:
+    pattern: '^(?P<ver>v?\d+\.\d+)\.\d+-(?P<build>\d+)(?P<comment>.*)-dev$'
+    extract: '$ver+$comment'
+  policy:
+    semver:
+      range: '>=0.0.0'

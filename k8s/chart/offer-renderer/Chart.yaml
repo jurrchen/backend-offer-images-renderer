@@ -1,0 +1,6 @@
+apiVersion: v2
+name: offer-renderer
+description: Helm chart for Fourthwall Offer Renderer
+type: application
+version: 0.1.0
+appVersion: "1.0.0"
