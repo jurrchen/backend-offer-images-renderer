@@ -9,7 +9,7 @@ services:
   - type: web
     name: renderer-server
     runtime: docker
-    plan: standard # 2GB RAM — fits ~2 workers. Use standard-plus (4GB) for more.
+    plan: pro-plus # 8GB RAM, $175/mo
     dockerfilePath: ./apps/renderer-server/Dockerfile
     dockerContext: .
     healthCheckPath: /api/v1/health/live
