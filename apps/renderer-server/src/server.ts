@@ -30,7 +30,7 @@ import { runMigrations } from './db/client.js'
 import { logger, rootCtx } from './logger/index.js'
 
 class RendererServer {
-  private server = Fastify({ logger: false, bodyLimit: 50 * 1024 * 1024 })
+  private server = Fastify({ logger: false, bodyLimit: 100 * 1024 * 1024 })
   private workerPool: WorkerPoolManager
   private pgJobQueue?: PgJobQueue
 
